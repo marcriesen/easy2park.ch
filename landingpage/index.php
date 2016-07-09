@@ -8,11 +8,11 @@
 </head>
 <body>
 
-
+<!-- Container für das Logo damit es per Flex-Box positioniert werden kann -->
 <div class="container-logo">
     <div class="logo"><a id="logo" href="http://www.easy2park.ch" target="_blank"></a></div>
 </div>
-
+<!-- Container für den Content, damit dieser per Flex-Box positioniert werden kann -->
 <div class="container-content">
     <div class="content">
         <h2>
@@ -32,7 +32,7 @@
 
 
 
-
+<!-- Dies hier ist das Script für die Google Analytics Anbindung -->
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
