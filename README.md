@@ -1,3 +1,5 @@
+easy2park.ch
+
 Dies wird die Website zu unserer Diplomarbeit bei den Web Professionals.
 
 Der Sinn dieser Website ist es, sämtliche Parkhäuser in der Schweiz über eine Website zugänglich zu machen
