@@ -1,0 +1,65 @@
+$(document).ready(function () {
+    'use strict';
+    
+    
+    // classes
+    
+    class Person {
+        constructor(name, functionality){
+            this.name = name;
+            this.property = functionality;
+        }
+
+    }
+    
+    class Student extends Person
+    {
+        constructor(name, property){
+            super(name, property);
+            this.grade = [];
+        }
+
+        addmark(grade){
+            this.grade.push()
+        }
+    }
+    
+    class Expert extends Person
+    {
+        constructor(name, property){
+            super(name, property);
+
+        }
+    } 
+    
+    class Grade
+    {
+        constructor(subject){
+            this.subject = subject;
+        }
+
+    }
+
+    class Speaking extends Grade
+    {
+        constructor(grade){
+            super();
+            this.grade = grade;
+        }
+    }
+    class Writing extends Grade
+    {
+        constructor(){
+            super();
+            this.grade = grade;
+        }
+    }
+
+    class Subject
+    {
+        constructor(){
+
+        }
+    }    
+    
+});
