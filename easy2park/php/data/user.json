@@ -9,9 +9,10 @@
       "housenumber": 10,
       "town": "Musterstadt",
       "plz": 1111,
-      "registrationplate": "SG 19510"
-      "car": ,
-      "creditcard":
+      "registrationplate": "SG 19510",
+      "car": "",
+      "creditcard": "",
+      "ccnumber":
     }
 
   ]
