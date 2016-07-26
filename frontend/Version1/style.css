@@ -1,0 +1,353 @@
+/* Start von CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* Ende von CSS Reset */
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #FFFFFF;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    min-height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-bottom: 6rem;
+}
+
+#section-heading {
+    padding: 30px;
+}
+
+.section-heading-text {
+    color: #2E3192;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h5 {
+    color: #000000;
+
+}
+
+h5, p {
+    color: #000000;
+}
+
+nav {
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+.navbar-brand {
+    height: 100px;
+    margin: 0;
+    width: auto;
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding: 0;
+    width: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.search {
+    text-align: center;
+    padding: 30px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.search_box_intro {
+    background: url("icons/ic_search_black_48px.svg") no-repeat #FFFFFF;
+    background-position: left;
+    background-size: 22px;
+    color: #7a7a7a;
+    font-size: 11px;
+    height: 50px;
+    border-width: 0;
+    border-color: #FFFFFF;
+    text-align: left;
+}
+
+.search_button {
+    background-color: #2E3192;
+    color: #FFFFFF;
+    border-color: #2E3192;
+    border-width: 0px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.button-circle {
+    background-color: #2E3192;
+    padding: 30px;
+    height: 120px;
+    width: 120px;
+    border-radius: 240px;
+}
+
+.findenzahlenparken {
+    padding: 20px;
+}
+
+.findenzahlenparken h5 {
+    padding: 20px;
+    color: #000000;
+    font-size: 20px;
+}
+
+.section-heading {
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+.intro-heading {
+    padding: 200px;
+    text-align: center;
+    color: #2E3192;
+    font-weight: bold;
+    font-size: 50px;
+    height: 750px;
+}
+
+
+.funktionierentext {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.funktionierentext a:hover {
+    text-decoration: none;
+    color: #2E3192;
+}
+
+
+
+
+.section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+}
+
+.subsection {
+    height: 50%;
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+.sectionOne {
+    background-image: url("img/Hotel-Parking_unscharf.jpg");
+}
+
+.site-wrapper {
+    display: inline-table;
+}
+
+.container-fluid {
+    background-color: #ffffff;
+    color: #2E3192;
+}
+
+
+
+.text {
+    text-align: center;
+}
+
+.stadt {
+    background-color: #9d9d9d;
+    margin: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.staedte {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contact {
+    padding: 20px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+
+.newsletter {
+    padding: 20px;
+    text-align: left;
+}
+
+.social {
+    padding: 20px;
+    text-align: left;
+}
+
+.social a:hover {
+    text-decoration: none;
+}
+
+.social-icons img {
+    height: 30px;
+    padding: 2px;
+}
+
+input {
+    display: block;
+    float: left;
+}
+
+.search_box_newsletter {
+    background: url("icons/telegram.svg") no-repeat #FFFFFF;
+    background-position: left;
+    background-size: 22px;
+    color: #7a7a7a;
+    font-size: 11px;
+    height: 26px;
+    border-width: 0;
+    border-color: #FFFFFF;
+    text-align: right;
+}
+
+.search_box.value{
+    margin-left: 20px;
+}
+
+.newsletter_button {
+    background-color: #2E3192;
+    color: #FFFFFF;
+    border-color: #2E3192;
+    border-width: 0px;
+    height: 26px;
+}
+
+.telegram {
+    height: 26px;
+}
+
+.search_intro {
+    ;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #3c3c3c;
+    clear:both;
+}
+
+.foot {
+    width: 1100%;
+    height: 10%;
+    margin: 0 auto;
+    color: #FFFFFF;
+    clear: both;
+}
+
+.foot p {
+    color: #FFFFFF;
+    font-size: 9px;
+}
+
+
+
+section {
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+}
+
+div#boxes {
+    min-height: 1000px;
+    width: 100%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    display: table-cell;
+    text-align: center;
+}
+
+article {
+    height: 355px;
+    width: 355px;
+    background-color: #7a7a7a;
+    float: left;
+    margin: 10px;
+    text-align: center;
+
+}
+
+
+
+
+
+
