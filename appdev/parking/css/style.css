@@ -1,0 +1,167 @@
+/* <--- START CSS RESET ---> */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* <--- END CSS RESET ---> */
+
+/* <--- START GLOBAL STYLE ---> */
+
+body {
+    font-family: Arial;
+    color: #000;
+    background-color: #666;
+    font-size: 15px;
+    background-blend-mode: hard-light;
+ }
+
+a {
+    color: #2D3092;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* <--- END GLOBAL STYLE ---> */
+
+/* <--- START HEADER STYLE ---> */
+
+header {
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+
+/* <--- END HEADER STYLE ---> */
+
+/* <--- START NAVIGATION STYLE ---> */
+
+#navigation {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    line-height: 50px;
+}
+
+#navigation ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    background: #fff;
+}
+
+#navigation ul li a {
+    display: inline-block;
+    height:inherit;
+    padding: 0 25px;
+    transition: all 150ms ease;
+    text-transform: uppercase;
+    line-height: inherit;
+}
+
+#navigation ul li a:hover {
+    background: #2D3092;
+    color: #fff;
+}
+
+#navigation ul li a:after {
+    background: #2D3092;
+}
+
+#logo {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    line-height: 50px;
+}
+
+#logo ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    background: #fff;
+}
+
+/* <--- END NAVIGATION STYLE ---> */
+
+/* <--- START CONTENT STYLE ---> */
+
+#content {
+    min-height: 500%;
+    height: 2000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
