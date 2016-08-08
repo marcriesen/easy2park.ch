@@ -7,3 +7,5 @@ easy2park.parkhausDS = function () {
         delete: delete,
         list: list
     };
+
+};
