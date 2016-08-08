@@ -37,7 +37,63 @@ $(document).ready(function () {
         });
 
         // Modeswitcher Funktion
-        $('#modesw')
+        $('#modeswitcher').on('click', function () {
+            $('body').removeClass();
+
+            //Modus umschalten
+            if (modus === 'work') {
+                modus = 'edit';
+            } else {
+                modus = 'work';
+            }
+            $('body').addClass(modus);
+        });
+
+
+        function listeSetzen() {
+            window.localtion.href = "index.html?projekt=" + $(this).val();
+        }
+
+
+        function platzRendern(platzElement) {
+            var $platz = $('<li>', {
+                html: platzElement.platz,
+                class: istDerPlatzBesetzt(),
+                "data-platzid":platzElement.id,
+                "data-besetzt": platzElement.besetzt,
+                contenteditable: true
+            });
+
+            $platz.prepend('<span class="icon"></span>');
+
+            function istDerPlatzBesetzt() {
+                if(platzElement.besetzt) {
+                    return 'besetzt';
+                }
+                return 'frei';
+            }
+            return $platz;
+        }
+
+
+        /**
+         * Aktuelisiert eine Liste
+         * @param selector (selector) Selektor für Zielelement und das die <li> angehängt werden
+         * @param daten (json) Daten
+         */
+
+        function PlatzlisteAktualisieren(daten) {
+            var $platzliste = $('#platzliste');
+            $platzliste.find('li').remove();
+            daten.platz.forEach(function (element) {
+                var $platz = $platzRendern(element);
+                $platzliste.append($platz);
+            });
+        }
+
+
+
+
 
 
     });

@@ -29,7 +29,22 @@
     <h1>Willkommen auf easy2park.ch</h1>
 
 
+    <select name="liste" class="parkhausauswahl"></select>
 
+    <button id="modeswitcher" class="edit">Bearbeiten</button>
+    <input type="text" name="neuerParkplatz" class="eingabe">
+
+
+
+    <h2>Parkplatzliste</h2>
+    <ul id="platzliste"></ul>
+
+
+
+<br><br><br><br>
+
+
+<!--
     <form action="#" method="post">
         Parkhaus-Name:
         <input type="text" id="input_parking1" name="parkhaus-name" placeholder="Bitte ausfüllen"><br>
@@ -49,6 +64,8 @@
 
     </form>
 
+-->
+
 </main>
 
 
@@ -58,7 +75,10 @@
 
 
 
-
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="easy2park.js"></script>
+<script src="platz.js"></script>
+<script src="parkhaus.js"></script>
 <script src="js/functions.js"></script>
 </body>
 </html>
