@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "label": "Parkhaus Schwammendingen",
+    "parkplatzSektorID1": 0,
+    "parkplatzSektorID2": 1,
+    "parkplatzSektorID3": 2,
+    "parkplatzSektorID4": 3
+  },
+  {
+    "id": 2,
+    "label": "Parkhaus Paradeplatz",
+    "parkplatzSektorID1": 0,
+    "parkplatzSektorID2": 1,
+    "parkplatzSektorID3": 2,
+    "parkplatzSektorID4": 3
+  }
+]
