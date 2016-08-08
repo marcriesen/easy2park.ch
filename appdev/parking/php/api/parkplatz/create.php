@@ -8,7 +8,7 @@ if (file_exists($file)){
     $fp = fopen($file,'r');
     $json =fread($fp,filesize($file));
     $liste = json_decode($json,true);
-    $liste["platz"][] = array("id"=>$liste["idcounter"], "platz"=> $platz, "besetzt"=> false );
+    $liste["plaetze"][] = array("id"=>$liste["idcounter"], "platz"=> $platz, "besetzt"=> false );
 
     $liste["idcounter"] ++;
     $json =json_encode($liste);

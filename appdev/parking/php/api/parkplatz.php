@@ -19,7 +19,7 @@ switch ($_REQUEST['method']) {
         include ("parkplatz/check.php");
         break;
     default:
-        header("HTTP/1.0 400 Unerlaubte Methode");
+        header("HTTP/1.0 400 Methode nicht erlaubt");
 
         echo "Methode nicht erlaubt";
 }
