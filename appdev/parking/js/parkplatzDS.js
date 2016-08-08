@@ -114,4 +114,31 @@ easy2park.platzDS = function () {
 
     };
 
+
+    /**
+     * Ladet eine Parkplatzliste vom Server
+     * @param parkhausListe (id) ID einer Liste
+     * @param callback (function) Die Funktion die ausgeführt wird, wenn wir die Liste bekommen haben
+     * @constructor
+     */
+    function platzListeLaden(parkhausListe, callback) {
+        if (parkhausListe === "-1") {
+            // Auf Parkhausseite wechseln
+            window.location.href = "parkhaus.html";
+        } else {
+            var aktuellesParkhaus = parkhausListe;
+            $.ajax({
+                type: "GET",
+                dataType: "json",
+                data: {id:parkhausListe},
+                url: 'php/api/parkplatz.php?method=list',
+                success: function (jsonBody) {
+                    callback(jsonBody);
+                },
+                error: function (error) {
+                    alert('nichts gefunden');
+                }
+            });
+        }
+    }
 }();
