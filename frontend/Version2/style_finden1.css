@@ -1,0 +1,472 @@
+
+
+/* Start von CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* Ende von CSS Reset */
+
+
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #FFFFFF;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    min-height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-bottom: 6rem;
+}
+
+
+
+
+h1 {
+    display: block;
+}
+
+.sectionOne {
+    background-size: cover;
+}
+
+.section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+}
+
+.subsection {
+    height: 50%;
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+#section-heading {
+    padding: 30px;
+    text-align: center;
+}
+
+.section-heading-text {
+    color: #2E3192;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.container-rund {
+    text-align: center;
+    display: inline-block;
+}
+
+#section-heading {
+    padding: 30px;
+}
+
+.section-heading-text {
+    color: #2E3192;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h5 {
+    color: #000000;
+
+}
+
+h5, p {
+    color: #000000;
+}
+
+
+nav {
+    background-color: #FFFFFF;
+}
+
+
+.navbar-brand {
+    height: 100px;
+    margin: 0;
+    width: auto;
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding: 0;
+    width: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.search {
+    background-position: center;
+    text-align: center;
+    padding: 30px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.search_box_intro {
+    background: url("icons/ic_search_black_48px.svg") no-repeat #FFFFFF;
+    background-position: left;
+    background-size: 22px;
+    color: #7a7a7a;
+    font-size: 11px;
+    height: 30px;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    text-align: left;
+}
+
+.search_button {
+    background-color: #2E3192;
+    color: #FFFFFF;
+    border-color: #2E3192;
+    border-width: 0px;
+    height:30px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.button-circle {
+    background-color: #2E3192;
+    padding: 30px;
+    height: 120px;
+    width: 120px;
+    border-radius: 240px;
+}
+
+.findenzahlenparken {
+    padding: 20px;
+}
+
+.findenzahlenparken h5 {
+    padding: 20px;
+    color: #000000;
+    font-size: 20px;
+}
+
+.section-heading {
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+.intro-heading {
+    padding: 200px;
+    text-align: center;
+    color: #2E3192;
+    font-weight: bold;
+    font-size: 50px;
+    height: 750px;
+}
+
+
+.funktionierentext {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.funktionierentext a:hover {
+    text-decoration: none;
+    color: #2E3192;
+}
+
+
+
+
+.subsection {
+    height: 50%;
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+.sectionOne {
+    background-image: url("img/Hotel-Parking_unscharf.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height:100%;
+
+}
+
+
+.container-fluid {
+    background-color: #ffffff;
+    color: #2E3192;
+}
+
+
+
+.text {
+    text-align: center;
+}
+
+.stadt {
+    background-color: #9d9d9d;
+    margin: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.staedte {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.contact {
+    padding: 20px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.newsletter {
+    padding: 20px;
+    text-align: left;
+}
+
+.social {
+    padding: 20px;
+    text-align: left;
+}
+
+.social a:hover {
+    text-decoration: none;
+}
+
+.social-icons img {
+    height: 30px;
+    padding: 2px;
+}
+
+input {
+    display: block;
+    float: left;
+}
+
+.search_box_newsletter {
+    background: url("icons/telegram.svg") no-repeat #FFFFFF;
+    background-position: left;
+    background-size: 22px;
+    color: #7a7a7a;
+    font-size: 15px;
+    height: 26px;
+    border-width: 0;
+    border-color: #FFFFFF;
+    text-align: center;
+    line-height: 50px;;
+}
+
+.search_box.value{
+    margin-left: 20px;
+}
+
+.newsletter_button {
+    background-color: #2E3192;
+    color: #FFFFFF;
+    border-color: #2E3192;
+    border-width: 0px;
+    height: 26px;
+}
+
+.newsletter {
+    text-align: left;
+    display: block;
+}
+
+.newsletterschrift {
+    text-align: left;
+}
+
+.sub p {
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.telegram {
+    height: 26px;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+
+}
+
+#boxes {
+    width: 100%;
+    float: left;
+    padding:10px;
+    box-sizing: border-box;
+    display: table-cell;
+    text-align: center;
+}
+
+article {
+    height: 355px;
+    width: 355px;
+    background-color: #7a7a7a;
+    float: left;
+    margin: 10px;
+    text-align: center;
+
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #3c3c3c;
+}
+
+.foot {
+    width: 1100px;
+    height: 10%;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+.foot p {
+    color: #FFFFFF;
+    font-size: 9px;
+}
+
+
+
+.outer {
+    background: #3c3c3c;
+    padding: 12px;
+    display: block;
+}
+.wrap {
+    margin: 0 auto;
+}
+.sub {
+    padding: 12px;
+    width: 32%;
+    height: 150px;
+    background: #3c3c3c;
+    display: table-cell;
+    border-right: solid #a175c4 1px;
+    text-align: center;
+}
+.sub:last-child {
+    border: 0px;
+}
+
+
+
+aside {
+    width: 30%;
+    background-color: #FFFFFF;
+    height: 300px;
+    float: left;
+}
+
+
+.parkingplaces {
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+.distanz {
+    background: url("#") no-repeat #FFFFFF;
+    background-size: 22px;
+    color: #7a7a7a;
+    font-size: 15px;
+    height: 26px;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+}
+
+.distanz_button {
+    background-color: #2E3192;
+    color: #FFFFFF;
+    border-color: #2E3192;
+    border-width: 0px;
+    height: 26px;
+    float: left;
+}
+
+html, body { height: 100%; margin: 0; padding: 0; }
+#map { height: 100%; }
+
+
+.titelbalken {
+    width: auto;
+    background-color: #bbbbbb;
+    margin: 0 auto;
+
+}
+
+
+
+

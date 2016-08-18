@@ -134,6 +134,8 @@ h5, p {
 
 nav {
     background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 
@@ -375,7 +377,6 @@ article {
     float: left;
     margin: 10px;
     text-align: center;
-
 }
 
 footer {
