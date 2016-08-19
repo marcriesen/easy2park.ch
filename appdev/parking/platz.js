@@ -121,7 +121,7 @@ $(document).ready(function () {
             var platzID = $task.data('platzid');
             var neuerZustand = !$platz.data('besetzt');
             $task.data('besetzt, neuerZustand');
-            $task.toggleClass('beseetzt');
+            $task.toggleClass('besetzt');
             easy2park.platzDS.platzAktualisieren(parkhaus,platzID, neuerZustand);
         }
 
