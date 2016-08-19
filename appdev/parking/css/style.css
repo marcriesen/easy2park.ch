@@ -144,8 +144,9 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     background: #fff;
+
 }
 
 /* <--- END NAVIGATION STYLE ---> */
@@ -153,8 +154,15 @@ header {
 /* <--- START CONTENT STYLE ---> */
 
 #content {
-    min-height: 500%;
-    height: 2000px;
+    background-image: url("../media/Hotel-Parking_unscharf.jpg") no-repeat center center;
+    min-height: 100%;
+    background-size: cover;
+
+
+html {
+    background-image: url("../media/Hotel-Parking_unscharf.jpg") no-repeat center center;
+    min-height: 100%;
+    background-size: cover;
 }
 
 
