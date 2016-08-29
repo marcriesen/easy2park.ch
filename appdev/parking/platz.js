@@ -7,7 +7,7 @@ $(document).ready(function () {
     var parkhaus = getParameterByName('parkhaus');
 
     //init
-    easy2park.platzDS.platzListeLaden(function (serverAntwort) {
+    easy2park.parkplatzDS.platzListeLaden(function (serverAntwort) {
         if (parkhaus) {
             // dropdown auf gewähltes Parkhaus setzen
             $('.parkhausauswahl').val(parkhaus);
@@ -22,7 +22,7 @@ $(document).ready(function () {
         });
         $('.parkhausauswahl').append($option);
 
-        easy2park.platzDS.platzlisteLaden(parkhaus, PlatzlisteAktualisieren);
+        easy2park.parkplatzDS.platzlisteLaden(parkhaus, PlatzlisteAktualisieren);
 
     });
 
@@ -34,7 +34,7 @@ $(document).ready(function () {
         if (e.charCode === 13) {
 
             var text = this.value;
-            var id = easy2park.platzDS.neuenPlatzHinzufuegen(parkhaus,text,function (id) {
+            var id = easy2park.parkparkplatzDS.neuenPlatzHinzufuegen(parkhaus,text,function (id) {
                 var $platz = platzRendern({'platz': text, id: id, besetzt: false});
                 $('#platzliste').append($platz);
             });
@@ -102,7 +102,7 @@ $(document).ready(function () {
             var $platz = $(event.target);
             var neuerTextvomPlatz = $platz[0].innerText;
             var idvomPlatz = $platz.data('platzid');
-            easy2park.platzDS.updatePlatz(parkhaus,idvomPlatz,neuerTextvomPlatz,function (r) {
+            easy2park.parkplatzDS.updatePlatz(parkhaus,idvomPlatz,neuerTextvomPlatz,function (r) {
                 $('.eingabe').focus();
             });
         }
@@ -118,14 +118,14 @@ $(document).ready(function () {
             var neuerZustand = !$platz.data('besetzt');
             $platz.data('besetzt, neuerZustand');
             $platz.toggleClass('besetzt');
-            easy2park.platzDS.platzAktualisieren(parkhaus,platzID,neuerZustand);
+            easy2park.parkplatzDS.platzAktualisieren(parkhaus,platzID,neuerZustand);
         }
 
         if ($platz.is('span') && modus === 'edit') {
             // Platz löschen
             $platz = $platz.parent();
             var platzId = $platz.data('platzid');
-            easy2park.platzDS.platzLoeschen(parkhaus,platzId);
+            easy2park.parkplatzDS.platzLoeschen(parkhaus,platzId);
             $platz.remove();
         }
     });
