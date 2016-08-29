@@ -8,5 +8,5 @@ if($fp != false) {
     fpassthru($fp);
 } else {
     header("HTTP/1.0 400 Nicht existierende Liste");
-    echo "Nicht exitsierende Liste";
+    echo "Nicht existierende Liste";
 }

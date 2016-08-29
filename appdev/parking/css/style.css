@@ -122,6 +122,10 @@ header {
 }
 
 #navigation ul li a:hover {
+    text-decoration: overline underline;
+}
+
+#navigation ul li a:hover {
     background: #2D3092;
     color: #fff;
 }

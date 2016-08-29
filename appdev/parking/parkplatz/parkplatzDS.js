@@ -4,9 +4,9 @@ easy2park.platzDS = function () {
     return {
         platzAktualisieren: platzAktualisieren,
         platzLoeschen: platzLoeschen,
-        neuenPlatzHinzufuegen: neuenPlatzHinzufugen,
+        neuenPlatzHinzufuegen: neuenPlatzHinzufuegen,
         updatePlatz: updatePlatz,
-        hausListeLaden: hausListeLaden,
+        parkhausListeLaden: parkhausListeLaden,
         platzListeLaden: platzListeLaden
     };
 
@@ -16,18 +16,17 @@ easy2park.platzDS = function () {
      * @param platzID (id) ID des Parkplatzes
      * @param text (string) Neuer Text vom Parkplatz
      */
-
     function updatePlatz(parkhaus, platzID, text, callback) {
         $.ajax({
             type: 'POST',
             dataType: "json",
-            data: {listeID: parkhaus, platz: text, platzID: platzID},
+            data: {listeID: parkhaus,platz:text,platzID:platzID},
             url: 'php/api/parkplatz.php?method=update',
             success: function (r) {
                 callback(r);
             }
             error: function (error) {
-                allert(error);
+                alert(error);
             }
         });
     }
@@ -38,11 +37,11 @@ easy2park.platzDS = function () {
      * @param platz (string) Text vom Platz
      * @returns {Number} (id) die ID des Platzes
      */
-    function platzHinzufuegen(parkhaus, text, callback) {
+    function platzHinzufuegen(parkhaus,text,callback) {
         $.ajax({
             type: 'GET',
             dataType: "json",
-            data: {listeID: parkhaus, platz: text},
+            data: {listeID:parkhaus,platz:text},
             url: 'php/api/parkplatz.php?methode=create',
             success: function (jsonBody) {
                 callback(jsonBody.id);
@@ -57,16 +56,17 @@ easy2park.platzDS = function () {
      * Löscht einen Parkplatz anhand der übergeben ID
      * @param platzID (id) ID eines Platzes
      */
-    function platzLoeschen(parkhaus, platzID) {
+    function platzLoeschen(parkhaus,platzID) {
+        //TODO: Server über Löschen benachrichtigen
         $.ajax({
             type: "POST",
-            data: {listeID: parkhaus, platzID: platzID},
+            data: {listeID:parkhaus,platzID:platzID},
             url: 'php/api/parkplatz.php?method=delete',
             success: function (r) {
-                console.log(platzID + 'wurde gelöscht');
+                console.log(platzID + ' wurde gelöscht');
             },
-            error: function (error) {
-                console.dir(error)
+            error: function (err) {
+                console.dir(err)
             }
         });
 
@@ -79,7 +79,7 @@ easy2park.platzDS = function () {
         $.ajax({
             type: "POST",
             dataType: "json",
-            data: {listeID: parkhaus, besetzt: besetzt, platzID: platzID},
+            data: {listeID:parkhaus,besetzt:besetzt,platzID:platzID},
             url: 'php/api/parkplatz.php?method=check',
             success: function (r) {
                 if (easy2park.isFunction(callback)) {
@@ -96,7 +96,7 @@ easy2park.platzDS = function () {
         $.ajax({
             type: "GET",
             dataType: "json",
-            url: 'data/parkhaeuser.json',
+            url: 'data/parkhaus.json',
             success: function (parkhausJson) {
                 parkhausJson.forEach(function (element) {
                     var $option = $('<option/>', {
@@ -130,7 +130,7 @@ easy2park.platzDS = function () {
             $.ajax({
                 type: "GET",
                 dataType: "json",
-                data: {id:parkhausListe},
+                data: {id:parkhaus},
                 url: 'php/api/parkplatz.php?method=list',
                 success: function (jsonBody) {
                     callback(jsonBody);

@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "parkhaus": "Schwammendingen",
+    "allePlaetzeBesetzt": true
+  },
+  {
+    "id": 2,
+    "parkhaus": "Urania",
+    "allePlaetzeBesetzt": false
+  }
+]

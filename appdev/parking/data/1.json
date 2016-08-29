@@ -1,0 +1,11 @@
+{
+  "parkhausname": "Schwammendingen",
+  "plaetze": [
+    {
+      "id": 0,
+      "platz": "Normal",
+      "besetzt": false
+    }
+  ],
+  "idcounter":
+}

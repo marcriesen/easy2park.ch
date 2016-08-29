@@ -1,0 +1,18 @@
+{
+  "parkingList": "parkingHouse",
+  "parking": [
+    {
+      "id":3,
+      "name": "Mustermann",
+      "street": "Parkstrasse",
+      "housenumber": "1",
+      "town": "Musterstadt",
+      "plz": 1111,
+      "women": 50,
+      "surveillance": 50,
+      "disabled":  10,
+      "normal": 150,
+      "total": 210
+    }
+  ]
+}
