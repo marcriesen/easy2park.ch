@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
 /* .:: STYLING INDEX ::.
 *
 * CSS RRESET                LINE 16
@@ -25,7 +28,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+figure, figcaption, footer, header,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
@@ -37,7 +40,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, menu, nav, section {
     display: block;
 }
 body {
@@ -63,43 +66,33 @@ table {
 
 /* <--- START GLOBAL STYLE ---> */
 
-body {
-    font-family: Arial;
-    color: #000;
-    background-color: #666;
-    font-size: 15px;
-    background-blend-mode: hard-light;
- }
-
 a {
-    color: #2D3092;
+    color: #666666;
     font-weight: 700;
     text-decoration: none;
+    font-size: 18px;
+}
+h1 {
+    font-family: 'RobotoBold', sans-serif;
+    font-size: 35px;
+    color: #2E3192;
+}
+h2 {
+    font-family: 'RobotoBold', sans-serif;
+    font-size: 28px;
+    color: #2E3192;
 }
 
 /* <--- END GLOBAL STYLE ---> */
 
-/* <--- START HEADER STYLE ---> */
-
-header {
-    position: relative;
-    height: 80px;
-    width: 100%;
-    background: #fff;
-    display: flex;
-    align-items: center;
-}
-
-/* <--- END HEADER STYLE ---> */
-
 /* <--- START NAVIGATION STYLE ---> */
 
 #navigation {
-    position: relative;
+    position: fixed;
     width: 100%;
     height: 50px;
-    background: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    background: ;
+   /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);*/
     text-align: center;
     line-height: 50px;
 }
@@ -109,8 +102,7 @@ header {
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    background: #fff;
-}
+    }
 
 #navigation ul li a {
     display: inline-block;
@@ -133,47 +125,120 @@ header {
 #navigation ul li a:after {
     background: #2D3092;
 }
-
+nav #logo {
+    background: #fff;
+}
+nav ul{
+    background: linear-gradient(to bottom, #fff, transparent);
+}
 #logo {
     position: relative;
     width: 100%;
     height: 80px;
-    background: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    /*box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);*/
     text-align: center;
     line-height: 50px;
 }
 
 #logo ul {
+    position: fixed;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    background: #fff;
-
 }
 
 /* <--- END NAVIGATION STYLE ---> */
 
-/* <--- START CONTENT STYLE ---> */
+/* <--- START PARALLAX STYLE ---> */
 
-#content {
-    background-image: url("../media/Hotel-Parking_unscharf.jpg") no-repeat center center;
-    min-height: 100%;
+.parallax {
+    background-image: url("../media/Hotel-Parking_unscharf.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+}
 
+.container-content {
+    display: flex;
+    justify-content: center;
+}
+.content {
+    height: 300px;
+    width: 500px;
+    background-color: transparent;
+    margin-top: 8em;
+    text-align: center;
+}
+input#search {
+    height: 50px;
+    width: 300px;
+    border: hidden;
+    font-size: 18px;
+    font-family: RobotoLight, sans-serif;
+    background-image: url("../media/icons/ic_search_black_48px.svg");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    text-indent: 50px;
+    transition: all 0.2s;
+}
+input#search:focus{
+    background-image: none;
+    text-indent: 10px;
+}
+
+#button-parallax {
+    height: 50px;
+    width: 110px;
+    background-color: #2E3192;
+    border: hidden;
+    margin-left: -6px;
+    padding-top: -3px;
+    font-size: 14px;
+    color: #fff;
+    display: inline;
+}
+
+/* <--- START CONTENT STYLE ---> */
 
 html {
     background-image: url("../media/Hotel-Parking_unscharf.jpg") no-repeat center center;
     min-height: 100%;
+    height: auto;
     background-size: cover;
 }
 
+body {
+    color: #2E3192;
+    background-color: #fff;
+    font-size: 28px;
+    background-blend-mode: hard-light;
+    font-family: 'Roboto', sans-serif;
+    height: 3000px;
+}
 
+.content-down {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2em;
+}
 
+.circle-finden {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    background-color: #2E3192;
+}
 
-
-
+.circle-zahlen {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    background-color: #2E3192;
+}
 
 
 
