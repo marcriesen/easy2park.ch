@@ -190,6 +190,7 @@ input#search:focus{
 }
 
 #button-parallax {
+    float: none;
     height: 50px;
     width: 110px;
     background-color: #2E3192;
@@ -223,26 +224,64 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-top: 5em;
+}
+.title-content {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
     margin-top: 2em;
 }
-
 .circle-finden {
     height: 120px;
     width: 120px;
     border-radius: 60px;
     background-color: #2E3192;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
-
 .circle-zahlen {
     height: 120px;
     width: 120px;
     border-radius: 60px;
     background-color: #2E3192;
+    margin-left: 10px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
-
-
-
-
+.circle-parken {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    background-color: #2E3192;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.text-finden {
+    float: left;
+    height: 300px;
+    width: 200px;
+    margin-top: 5em;
+    margin-right: 200px;
+}
+.text-zahlen {
+    height: 300px;
+    width: 200px;
+    margin-top: 5em;
+}
+.text-parken {
+    height: 300px;
+    width: 200px;
+    margin-top: 5em;
+}
 
 
 
