@@ -1,0 +1,16 @@
+[
+  {
+    "parkhaus": {
+      "alleParkplaetzeBesetzt": "false",
+      "label": "Urania",
+      "id": "01235"
+    }
+  },
+  {
+    "parkhaus": {
+      "alleParkplaetzeBesetzt": "true",
+      "label": "Schwammendingen",
+      "id": "01234"
+    }
+  }
+]

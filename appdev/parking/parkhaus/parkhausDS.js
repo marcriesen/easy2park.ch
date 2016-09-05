@@ -36,7 +36,6 @@ easy2park.parkhausDS = function () {
 
     }
 
-
     function list () {
 
     }

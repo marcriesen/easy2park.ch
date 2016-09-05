@@ -18,10 +18,10 @@
 </nav>
 <nav id="navigation">
     <ul id="nav">
-        <li><a href="html/search.html">STADT WÄHLEN</a></li>
-        <li><a href="html/user.html">MEIN KONTO</a></li>
-        <li><a href="html/contact.html">SO FUNKTIONIERT'S</a></li>
-        <li><a href="html/faq.html">KONTAKT</a></li>
+        <li><a href="search.html">PARKHAUS ERFASSEN</a></li>
+        <li><a href="user.html">MEIN KONTO</a></li>
+        <li><a href="contact.html">SO FUNKTIONIERT'S</a></li>
+        <li><a href="faq.html">KONTAKT</a></li>
     </ul>
 </nav>
 
@@ -29,12 +29,21 @@
     <div class="container-content">
         <div class="content">
             <h1>
-                Parkieren in der Schweiz - <br>
-                bargeldlos, ticketlos, sorgenlos <br>
+                Admin-Bereich easy2park.ch
             </h1>
             <br>
             <br>
-            <input id="search" type="search" name="search" placeholder="Stadt suchen..."> <button id="button-parallax">SUCHEN</button>
+            <div class="input-form">
+                Parkhaus-Name: <input id="ph-form" type="search" name="search" placeholder="Stadt suchen..."> <br>
+                Parkhaus-Strasse: <input id="ph-form" type="search" name="search" placeholder="Stadt suchen..."> <br>
+                Parkhaus-PLZ: <input id="ph-form" type="search" name="search" placeholder="Stadt suchen..."> <br>
+                Parkhaus-Stadt: <input id="ph-form" type="search" name="search" placeholder="Stadt suchen..."> <br>
+                Parkhaus-Sektor 1: <input id="ph-form" type="search" name="search" placeholder="Stadt suchen..."> <br>
+                Parkhaus-Sektor 2: <input id="ph-form" type="search" name="search" placeholder="Stadt suchen..."> <br>
+                Parkhaus-Sektor 3: <input id="ph-form" type="search" name="search" placeholder="Stadt suchen..."> <br>
+                Parkhaus-Sektor 4: <input id="ph-form" type="search" name="search" placeholder="Stadt suchen..."> <br>
+                <button id="button-parallax">SUCHEN</button>
+            </div>
         </div>
     </div>
 </div>
@@ -47,66 +56,50 @@
     <div class="circle-finden">
         <img src="media/icons/ic_search_white_48px.svg">
     </div>
-    <div class="text-finden">
+    <!-- <div class="text-finden">
         <h3>Finden</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet assumenda, blanditiis corporis debitis, delectus dolorum eaque est expedita hic obcaecati officia quaerat sapiente sit totam ullam velit voluptate voluptatibus!</p>
-    </div>
+    </div> -->
     <div class="circle-zahlen">
         <img src="media/icons/ic_payment_white_48px.svg">
     </div>
-    <div class="text-zahlen">
+    <!-- <div class="text-zahlen">
         <h3>Finden</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet assumenda, blanditiis corporis debitis, delectus dolorum eaque est expedita hic obcaecati officia quaerat sapiente sit totam ullam velit voluptate voluptatibus!</p>
-    </div>
+    </div> -->
     <div class="circle-parken">
         <img src="media/icons/ic_directions_car_white_48px.svg">
     </div>
-    <div class="text-parken">
+   <!-- <div class="text-parken">
         <h3>Finden</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet assumenda, blanditiis corporis debitis, delectus dolorum eaque est expedita hic obcaecati officia quaerat sapiente sit totam ullam velit voluptate voluptatibus!</p>
-    </div>
+    </div>-->
+</div>
+
+<div class="search">
+
+<main id="container">
+    <h5>Willkommen auf easy2park.ch</h5>
+
+
+    <select id="parkhausauswahl" name="parkhausauswahl" class="parkhausauswahl"></select>
+
+    <button id="modeswitcher" class="edit">Bearbeiten</button>
+    <input id="entry" type="text" name="neuerParkplatz" class="eingabe">
+
+
+
+    <h2>Parkplatzliste</h2>
+    <ul id="parkhausliste"></ul>
+
+
+</main>
 </div>
 
 
 
 
-
-
-
-
-
-
-<!--
-
-<main id="container">
-    <h1>Willkommen auf easy2park.ch</h1>
-
-
-    <select name="liste" class="parkhausauswahl"></select>
-
-    <button id="modeswitcher" class="edit">Bearbeiten</button>
-    <input type="text" name="neuerParkplatz" class="eingabe">
-
-
-
-    <h2>Parkplatzliste</h2>
-    <ul id="platzliste"></ul>
-
-
-
-
-
-</main>
-
--->
-
-
-
-
-
-
-
-<script src="easy2park.js"></script>
+<!-- <script src="easy2park.js"></script> -->
 <script src="platz.js"></script>
 <script src="parkhaus.js"></script>
 <script src="js/functions.js"></script>

@@ -7,8 +7,9 @@ $(document).ready(function () {
     var parkhaus = getParameterByName('parkhaus');
 
     //init
-    easy2park.parkplatzDS.platzListeLaden(function (serverAntwort) {
+    /* easy2park.parkplatzDS.platzListeLaden(function () {
         if (parkhaus) {
+
             // dropdown auf gewähltes Parkhaus setzen
             $('.parkhausauswahl').val(parkhaus);
         } else {
@@ -24,42 +25,15 @@ $(document).ready(function () {
 
         easy2park.parkplatzDS.platzlisteLaden(parkhaus, PlatzlisteAktualisieren);
 
-    });
+    }); */
 
 
     $('.parkhausauswahl').on('change', listeSetzen);
-
-    $('.eingabe').on('keypress', function (e) {
-        // Wenn Enter gedrückt wird
-        if (e.charCode === 13) {
-
-            var text = this.value;
-            var id = easy2park.parkparkplatzDS.neuenPlatzHinzufuegen(parkhaus,text,function (id) {
-                var $platz = platzRendern({'platz': text, id: id, besetzt: false});
-                $('#platzliste').append($platz);
-            });
-            this.value = '';
-        }
-    });
-
-    // Modeswitcher Funktion
-    $('#modeswitcher').on('click', function () {
-        $('body').removeClass();
-
-        //Modus umschalten
-        if (modus === 'work') {
-            modus = 'edit';
-        } else {
-            modus = 'work';
-        }
-        $('body').addClass(modus);
-    });
 
 
     function listeSetzen() {
         window.location.href = "index.html?parkhaus=" + $(this).val();
     }
-
 
     function platzRendern(platzElement) {
         var $platz = $('<li>', {

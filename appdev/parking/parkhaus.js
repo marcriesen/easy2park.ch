@@ -1,10 +1,6 @@
 $(document).ready(function () {
     'use strict';
 
-    // Backlink hinzufügen
-    var $link = $("<a/>", {href: './index.html', text: 'zurück zu den Parkplätzen'});
-    $("body").prepend($link);
-
     var $parkhausliste = $('#parkhausliste');
 
     var modus = 'work';
@@ -27,17 +23,18 @@ $(document).ready(function () {
         type: 'GET',
         dataType: "json",
         url: 'data/parkhaus.json',
-        success: parkhauslisteParsen,
+        success: function(r){
+            parkhauslisteParsen(r)
+        },
         error: function () {
             alert("Der Server ist kapputt");
         }
     });
 
 
-    function parkhauslisteParsen(jsondata) {
-
-        jsondata.forEach(function (e) {
-            addParkhaus(e.label, e.id, e.alleParkplaetzeBesetzt);
+    function parkhauslisteParsen(r) {
+        r.forEach(function (e) {
+            addParkhaus(e.parkhaus.label, e.parkhaus.id, e.parkhaus.alleParkplaetzeBesetzt);
         });
     }
 
@@ -53,7 +50,7 @@ $(document).ready(function () {
         label = label || 'unbekannt'; // wir geben dem label den defaultwert unbekannt
 
         var $parkhaus = $('<li/>', {
-            contenteditable: true,
+            contenteditable: false,
             html: label,
             id: id,
             class: (besetzt) ? 'allesBesetzt' : ''
@@ -64,28 +61,24 @@ $(document).ready(function () {
         $parkhausliste.append($parkhaus);
     }
 
-    // Auf  Input Feld ...
-    $('.eingabe').on('keypress', function (e) {
-        // bei drücken von Enter (Zeichen #13) soll dieser eingegebene Text in die Liste angehängt werden
+
+    $('#entry').on('keypress', function (e) {
+        // Wenn Enter gedrückt wird
         if (e.charCode === 13) {
-            ParkhausAdden(this.value);
-            // und das Eingabefeld wieder leer sein
+
+            var text = this.value;
+            var besetzt = false;
+
+            var id = ''; // TODO ID generieren.
+
+            addParkhaus(this.value, id, besetzt);
+            // TODO send to server
             this.value = '';
         }
     });
 
-    // Parkhaus an server schicken und in die Liste eintragen
-    function parkhausAdden(parkhausname) {
-        easy2park.parkhausDS.create(parkhausname,callback);
-        function callback(data) {
-            var id = data.id;
-            addParkhaus(parkhausname, id);
-        }
 
-    }
-
-
-    $parkhauslisteliste.on('keypress', function (event) {
+    $parkhausliste.on('keypress', function (event) {
         // Wenn enter gedrückt wird...
         if (event.charCode === 13) {
             event.preventDefault(); // event nicht weiter geben
@@ -101,11 +94,11 @@ $(document).ready(function () {
     });
 
     // wenn wir auf ein Projekt clicken
-    $parkhauslisteliste.on('click', function (event) {
+    $parkhausliste.on('click', function (event) {
 
         // ermitteln wir das projekt
         var $parkhaus = $(event.target).parent();
-        // und. die Parkhausid attr('id')
+        // und die Parkhausid attr('id')
         var parkhausID = $parkhaus.attr('id');
 
         // und wir im modus "edit" sind und auf den Kübel drücken (span)
