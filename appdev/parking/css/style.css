@@ -293,34 +293,20 @@ body {
 
 
 
-/*
-.container-content {
-    display: flex;
-    justify-content:center;
-    align-content:center;
-}
 
-.content {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 5em;
-}
-.index_titel {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-.index_content {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 2em;
-}
 
 .flex-content {
     margin-top: 2em;
     display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.index_circle {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 5em;
 }
 
 .circle-finden {
@@ -339,7 +325,6 @@ body {
     width: 120px;
     border-radius: 60px;
     background-color: #2E3192;
-    margin-left: 10px;
     margin-right: 200px;
     display: flex;
     justify-content: center;
@@ -351,8 +336,12 @@ body {
     width: 120px;
     border-radius: 60px;
     background-color: #2E3192;
-    margin-left: 10px;
-    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.index_text {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -363,21 +352,37 @@ body {
     height: 300px;
     width: 200px;
     margin-top: 5em;
-    margin-right: 200px;
-}
-
-.text-zahlen {
-    height: 300px;
-    width: 200px;
-    margin-top: 5em;
+    margin-right: 120px;
+    display: flex;
+    box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);
+    background-color: #2E3192;
+    color: #fff;
 }
 
 .text-parken {
     height: 300px;
     width: 200px;
     margin-top: 5em;
-} */
+    margin-right: 120px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);
+    background-color: #2E3192;
+    color: #fff;
+}
 
+.text-zahlen {
+    height: 300px;
+    width: 200px;
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);
+    background-color: #2E3192;
+    color: #fff;
+}
 
 
 
