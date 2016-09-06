@@ -9,7 +9,11 @@
             <div class="flex-content">
                 <h2>So funktioniert's...</h2>
             </div>
-            <div class=""
+            <div class="index_numbers">
+                <div class="one">1.</div>
+                <div class="two">2.</div>
+                <div class="three">3.</div>
+            </div>
             <div class="index_circle">
                     <div class="circle-finden">
                         <img src="media/icons/ic_search_white_48px.svg">
@@ -23,16 +27,27 @@
             </div>
             <div class="index_text">
                 <div class="text-finden">
-                    <p><h3>Finden</h3>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet assumenda, blanditiis corporis debitis, delectus dolorum eaque est expedita hic obcaecati officia quaerat sapiente sit totam ullam velit voluptate voluptatibus!</p>
+                    <div class="text-center">
+                        <h3>Finden</h3><br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet assumenda, blanditiis corporis debitis, delectus dolorum eaque est expedita hic obcaecati officia quaerat sapiente sit totam ullam velit voluptate voluptatibus!
+                    </div>
                 </div>
                 <div class="text-parken">
-                    <p><h3>Parken</h3>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet assumenda, blanditiis corporis debitis, delectus dolorum eaque est expedita hic obcaecati officia quaerat sapiente sit totam ullam velit voluptate voluptatibus!</p>
+                    <div class="text-center">
+                        <h3>Parken</h3><br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet assumenda, blanditiis corporis debitis, delectus dolorum eaque est expedita hic obcaecati officia quaerat sapiente sit totam ullam velit voluptate voluptatibus!
+                    </div>
                 </div>
                 <div class="text-zahlen">
-                    <p><h3>Zahlen</h3>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet assumenda, blanditiis corporis debitis, delectus dolorum eaque est expedita hic obcaecati officia quaerat sapiente sit totam ullam velit voluptate voluptatibus!</p>
+                    <div class="text-center">
+                        <h3>Zahlen</h3><br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet assumenda, blanditiis corporis debitis, delectus dolorum eaque est expedita hic obcaecati officia quaerat sapiente sit totam ullam velit voluptate voluptatibus!
+                    </div>
+                </div>
+            </div>
+            <div class="button-next-site">
+                <div class="next-site">
+                    <a href="parkhaus.php">Zum Admin-Bereich</a>
                 </div>
             </div>
         </div>
