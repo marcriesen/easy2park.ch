@@ -162,6 +162,8 @@ nav #logo {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 .container-content {
@@ -173,6 +175,7 @@ nav #logo {
     height: 500px;
     width: 900px;
     margin-top: 6em;
+    padding-top: 2em;
     font-size: 15px;
     box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);
     background: rgba(255,255,255, 0.6);
@@ -196,7 +199,7 @@ nav #logo {
     clear: both;
 }
 
-input#ph-form {
+/*input#bs-form #ph-form{
     height: 20px;
     width: 200px;
     border: hidden;
@@ -207,10 +210,12 @@ input#ph-form {
     background-position: 5px center;
     text-indent: 50px;
     transition: all 0.2s;
-}
+}*/
+
 .input-form .form-titel label #titel {
     text-decoration: underline;
 }
+
 p {
     text-align:center;
 }
@@ -261,6 +266,7 @@ html {
     min-height: 100%;
     height: auto;
     background-size: cover;
+    background-color: transparent;
 }
 
 body {
@@ -272,19 +278,49 @@ body {
     height: 3000px;
 }
 
-.content-down {
+.content {
+    height: auto;
+    width: 900px;
+    display: block;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+/*
+.container-content {
+    display: flex;
+    justify-content:center;
+    align-content:center;
+}
+
+.content {
     display: flex;
     justify-content: center;
     align-content: center;
     margin-top: 5em;
 }
-
-.title-content {
-    position: fixed;
+.index_titel {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.index_content {
     display: flex;
     justify-content: center;
     align-content: center;
     margin-top: 2em;
+}
+
+.flex-content {
+    margin-top: 2em;
+    display: flex;
 }
 
 .circle-finden {
@@ -340,7 +376,7 @@ body {
     height: 300px;
     width: 200px;
     margin-top: 5em;
-}
+} */
 
 
 

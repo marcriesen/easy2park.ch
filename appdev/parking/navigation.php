@@ -13,38 +13,14 @@
 
 <nav id="logo">
     <ul id="logo">
-        <a href="index.html"><img src="media/logo/logo_desktop.png"></a>
+        <a href="index.php"><img src="media/logo/logo_desktop.png"></a>
     </ul>
 </nav>
 <nav id="navigation">
     <ul id="nav">
-        <li><a href="search.html">STADT WÄHLEN</a></li>
-        <li><a href="user.html">MEIN KONTO</a></li>
-        <li><a href="contact.html">SO FUNKTIONIERT'S</a></li>
-        <li><a href="faq.html">KONTAKT</a></li>
+        <li><a id="navi" href="parkhaus.php">Parkhaus erfassen</a></li>
+        <li><a id="navi" href="parkplatz.php">Parkplatzsektor erfassen</a></li>
+        <li><a id="navi" href="uebersicht.php">Parkplatzübersicht</a></li>
+        <li><a id="navi" href="kontakt.php">Kontakt</a></li>
     </ul>
 </nav>
-
-<main id="container">
-
-
-    <div class="content">
-        <h1>Konto</h1>
-    </div>
-
-
-
-
-</main>
-
-
-
-
-
-
-
-
-
-<script src="js/functions.js"></script>
-</body>
-</html>
