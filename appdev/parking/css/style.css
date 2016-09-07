@@ -8,6 +8,9 @@
 * HEADER STYLE              LINE 82
 * NAVIGATION STYLE          LINE 95
 * CONTENT STYLE             LINE 153
+* LANDING PAGE STYLE        LINE
+* PARKHAUS PAGE STYLE       LINE
+* PARKPLATZ PAGE STYE       LINE
 * FOOTER STYLE              LINE
 * PARKING OVERVIEW STYLE    LINE
 * PARKING DETAILS           LINE
@@ -224,21 +227,18 @@ p {
     float: left;
 }
 
-.input-form label
-{
+.input-form label {
     float:left;
     width: 40%;
     text-align:right;
 }
 
-.input-form input
-{
-    float:left;
+.input-form input {
     width: 20%;
 }
 
 .content-content input {
-    width: 100%;
+    width: 20%;
     clear: both;
 }
 
@@ -275,7 +275,7 @@ body {
     font-size: 28px;
     background-blend-mode: hard-light;
     font-family: 'Roboto', sans-serif;
-    height: 3000px;
+    height: 1000px;
 }
 
 .content {
@@ -283,6 +283,8 @@ body {
     width: 900px;
     display: block;
 }
+
+
 
 .flex-content {
     margin-top: 3em;
@@ -428,7 +430,7 @@ body {
     justify-content: space-around;
 }
 
-.text-parken {
+.text-zahlen {
     height: 250px;
     width: 200px;
     margin-right: 120px;
@@ -445,7 +447,7 @@ body {
     border-radius: 5px;
 }
 
-.text-zahlen {
+.text-parken {
     height: 250px;
     width: 200px;
     display: -webkit-box;
@@ -497,6 +499,7 @@ body {
 .next-site a {
     height: 50px;
     width: 200px;
+    padding-top: 30px;
     color: #fff;
     text-align: center;
     border-radius: 5px;

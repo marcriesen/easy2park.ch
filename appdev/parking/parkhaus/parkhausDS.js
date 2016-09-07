@@ -15,17 +15,17 @@ easy2park.parkhausDS = function () {
         $.ajax({
             url: "/api/parkhaus.php?method=update",
             data: {name: name, parkhausId:parkhausId},
-            type: 'POST',
+            type: 'PUT',
             dataType: "json",
             success: callback
         });
     }
 
-    function create(name, callback) {
+    function create(name, data, callback) {
 
         $.ajax({
             url: "/api/parkhaus.php?method=create",
-            data: {name: name},
+            data: data,
             type: 'POST',
             dataType: "json",
             success: callback

@@ -19,10 +19,10 @@
                         <img src="media/icons/ic_search_white_48px.svg">
                     </div>
                     <div class="circle-zahlen">
-                        <img src="media/icons/ic_directions_car_white_48px.svg">
+                        <img src="media/icons/ic_payment_white_48px.svg">
                     </div>
                     <div class="circle-parken">
-                        <img src="media/icons/ic_payment_white_48px.svg">
+                        <img src="media/icons/ic_directions_car_white_48px.svg">
                     </div>
             </div>
             <div class="index_text">
@@ -32,15 +32,15 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet assumenda, blanditiis corporis debitis, delectus dolorum eaque est expedita hic obcaecati officia quaerat sapiente sit totam ullam velit voluptate voluptatibus!
                     </div>
                 </div>
-                <div class="text-parken">
-                    <div class="text-center">
-                        <h3>Parken</h3><br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet assumenda, blanditiis corporis debitis, delectus dolorum eaque est expedita hic obcaecati officia quaerat sapiente sit totam ullam velit voluptate voluptatibus!
-                    </div>
-                </div>
                 <div class="text-zahlen">
                     <div class="text-center">
                         <h3>Zahlen</h3><br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet assumenda, blanditiis corporis debitis, delectus dolorum eaque est expedita hic obcaecati officia quaerat sapiente sit totam ullam velit voluptate voluptatibus!
+                    </div>
+                </div>
+                <div class="text-parken">
+                    <div class="text-center">
+                        <h3>Parken</h3><br>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet assumenda, blanditiis corporis debitis, delectus dolorum eaque est expedita hic obcaecati officia quaerat sapiente sit totam ullam velit voluptate voluptatibus!
                     </div>
                 </div>

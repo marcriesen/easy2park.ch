@@ -124,3 +124,33 @@ $(document).ready(function () {
     }
 
     });
+
+
+    /*$('#besitzerdaten').on('click', function(){
+        var userForm = $('#form-users');
+        var formData = new FormData(userForm);
+        var data = {};
+        for (var i = 0; i <= formData.entries().length; i++){
+            formData.set(i[0],i[1]);
+            console.log(i[0] + ' ' + i[1] );
+        }*/
+
+    $('#form-besitzer').on('submit', function(e){
+        e.preventDefault();
+
+        // console.log($(this).serialize());
+
+        var data = JSON.stringify($(this).serializeArray());
+        console.log(data);
+    });
+
+
+    $('#form-parkhaus').on('submit', function(e){
+        e.preventDefault();
+
+        // console.log($(this).serialize());
+
+        var data = JSON.stringify($(this).serializeArray());
+
+
+    });
