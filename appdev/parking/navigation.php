@@ -19,8 +19,7 @@
 <nav id="navigation">
     <ul id="nav">
         <li><a id="navi" href="parkhaus.php">Parkhaus erfassen</a></li>
-        <li><a id="navi" href="parkplatz.php">Parkplatzsektor erfassen</a></li>
-        <li><a id="navi" href="uebersicht.php">Parkplatzübersicht</a></li>
+        <li><a id="navi" href="uebersicht.php">Parkhausübersicht</a></li>
         <li><a id="navi" href="kontakt.php">Kontakt</a></li>
     </ul>
 </nav>

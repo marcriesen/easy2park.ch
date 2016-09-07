@@ -8,43 +8,42 @@
                     Admin-Bereich von easy2park.ch
                 </h1>
                 <br>
-                <p>Bitte erfassen Sie Ihre Parkhausdaten. Vergewissern Sie sich, dass die Eingaben auch korrekt und vollständig sind, damit Ihre Kunden Sie später ohne Probleme finden können.<br>
+                <p>Bitte erfassen Sie Ihre Parkhausdaten. Vergewissern Sie sich, dass die Eingaben auch korrekt und
+                    vollständig sind, damit Ihre Kunden Sie später ohne Probleme finden können.<br>
                 </p>
                 <form id="dummy-form" action="#"></form>
                 <br>
-                <form id="form-besitzer" class="form-besitzer" method="post" action="#">
-                    <div class="form-titel"><label id="titel">Parkhaus-Besitzerangaben:</label></div> <br>
+                <form id="form-parkhaus" class="form-parkhaus" method="post" action="#">
+                    <div class="form-titel"><label id="titel">Parkhaus-Besitzerangaben:</label></div>
+                    <br>
                     <fieldset id="inputs">
                         <p><label for="b-firma">Firma:</label>
-                            <input id="b-firma" name="b-firma" type="text" placeholder="Firmenname" >
+                            <input id="b-firma" name="b-firma" type="text" placeholder="Firmenname">
                         </p>
                         <p><label for="b-name">Name: </label>
-                            <input id="b-name" name="b-name" type="text" placeholder="Name" >
+                            <input id="b-name" name="b-name" type="text" placeholder="Name">
                         </p>
                         <p><label for="b-vorname">Vorname: </label>
-                            <input id="b-vorname" name="b-vorname" type="text" placeholder="Vorname" >
+                            <input id="b-vorname" name="b-vorname" type="text" placeholder="Vorname">
                         </p>
                         <p><label for="b-strasse">Strasse: </label>
-                            <input id="b-strasse" name="b-strasse" type="text" placeholder="Strasse" >
+                            <input id="b-strasse" name="b-strasse" type="text" placeholder="Strasse">
                         </p>
                         <p><label for="b-hausnummer">Hausnummer: </label>
-                            <input id="b-hausnummer" name="b-hausnummer" type="number" placeholder="Hausnummer" >
+                            <input id="b-hausnummer" name="b-hausnummer" type="number" placeholder="Hausnummer">
                         </p>
                         <p><label for="b-plz">Postleitzahl: </label>
-                            <input id="b-plz" name="b-plz" type="number" placeholder="PLZ" >
+                            <input id="b-plz" name="b-plz" type="number" placeholder="PLZ">
                         </p>
                         <p><label for="b-stadt">Stadt: </label>
-                            <input id="b-stadt" name="b-stadt" type="text" placeholder="Stadt" >
+                            <input id="b-stadt" name="b-stadt" type="text" placeholder="Stadt">
                         </p>
                         <p><label for="b-nummer">Telefonnummer: </label>
-                            <input id="b-nummer" name="b-nummer" type="number" placeholder="Telefonnummer" >
+                            <input id="b-nummer" name="b-nummer" type="number" placeholder="Telefonnummer">
                         </p>
-                        <input type="submit" value="Besitzerdaten Speichern" id="besitzerdaten">
-                    </fieldset>
-                </form>
-                <br>
-                <form id="form-parkhaus" class="form-parkhaus"><label>Parkhausangaben:</label><br>
-                    <fieldset id="inputs">
+
+                        <label>Parkhausangaben:</label><br>
+
                         <p><label for="p-parkhaus">Parkhaus-Name: </label>
                             <input id="p-parkhaus" name="p-parkhaus" type="text" placeholder="Parkhaus-Name" required>
                         </p> <br>
@@ -63,18 +62,13 @@
                         <input type="submit" value="Parkhausdaten Speichern" id="parkhausdaten">
                     </fieldset>
                 </form>
-            </div>
         </div>
-        <p>
-            <input type="submit" id="button-parallax" value="Register">
-        </p>
     </div>
 </div>
-</div>
-</div>
 
 
 
+<!--
 <div class="search">
 
     <main id="container">
@@ -87,18 +81,15 @@
         <input id="entry" type="text" name="neuerParkplatz" class="eingabe">
 
 
-
         <h2>Parkplatzliste</h2>
         <ul id="parkhausliste"></ul>
 
 
     </main>
 </div>
+ -->
 
 
-
-
-<!-- <script src="easy2park.js"></script> -->
 <script src="platz.js"></script>
 <script src="parkhaus.js"></script>
 <script src="js/functions.js"></script>
