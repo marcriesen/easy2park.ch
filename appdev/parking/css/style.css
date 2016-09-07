@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
-
 /* .:: STYLING INDEX ::.
 *
 * CSS RRESET                LINE 16
@@ -102,22 +101,26 @@ h2 {
     position: fixed;
     width: 100%;
     height: 100px;
-   /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);*/
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);*/
     text-align: center;
     line-height: 50px;
     background: linear-gradient(to bottom, #fff 50%, transparent);
 }
 
 #navigation ul {
-    display: -webkit-box;     display: -moz-box;     display: -ms-flexbox;     display: -webkit-flex;     display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    }
+}
 
 #navigation ul li a {
     display: inline-block;
-    height:inherit;
+    height: inherit;
     padding: 0 25px;
     transition: all 150ms ease;
     text-transform: uppercase;
@@ -148,7 +151,11 @@ nav #logo {
 
 #logo ul {
     position: fixed;
-    display: -webkit-box;     display: -moz-box;     display: -ms-flexbox;     display: -webkit-flex;     display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
@@ -160,17 +167,25 @@ nav #logo {
 
 .parallax {
     background-image: url("../media/Hotel-Parking_unscharf.jpg");
-    min-height: 600px;
+    min-height: 1100px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: -webkit-box;     display: -moz-box;     display: -ms-flexbox;     display: -webkit-flex;     display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     justify-content: center;
 }
 
 .container-content {
-    display: -webkit-box;     display: -moz-box;     display: -ms-flexbox;     display: -webkit-flex;     display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -181,7 +196,7 @@ nav #logo {
     padding-top: 2em;
     font-size: 15px;
     box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);
-    background: rgba(255,255,255, 0.6);
+    background: rgba(255, 255, 255, 0.6);
     border-radius: 5px;
 }
 
@@ -220,7 +235,7 @@ nav #logo {
 }
 
 p {
-    text-align:center;
+    text-align: center;
 }
 
 .slash {
@@ -228,9 +243,9 @@ p {
 }
 
 .input-form label {
-    float:left;
+    float: left;
     width: 40%;
-    text-align:right;
+    text-align: right;
 }
 
 .input-form input {
@@ -242,7 +257,7 @@ p {
     clear: both;
 }
 
-input#ph-form:focus{
+input#ph-form:focus {
     background-image: none;
     text-indent: 10px;
 }
@@ -275,7 +290,7 @@ body {
     font-size: 28px;
     background-blend-mode: hard-light;
     font-family: 'Roboto', sans-serif;
-    height: 1000px;
+    height: 1100px;
 }
 
 .content {
@@ -284,7 +299,7 @@ body {
     display: block;
 }
 
-
+/* <--- START LANDING PAGE STYLE ---> */
 
 .flex-content {
     margin-top: 3em;
@@ -497,11 +512,12 @@ body {
 }
 
 .next-site a {
-    height: 50px;
-    width: 200px;
-    padding-top: 30px;
+    height: 100%;
+    width: 100%;
     color: #fff;
+    display: table-cell;
     text-align: center;
+    vertical-align: middle;
     border-radius: 5px;
 }
 
@@ -510,12 +526,17 @@ body {
     color: #2E3192;
 }
 
+/* <--- END LANDING PAGE STYLE ---> */
+
+/* <--- FOOTER STYLE ---> */
+
+footer {
+    width: ;
+    height: 30px;
+    margin-top: 500px;
+    margin-left: -200px;
+    margin-bottom: -30px;
+}
 
 
-
-
-
-
-
-
-
+}

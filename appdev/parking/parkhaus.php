@@ -11,10 +11,10 @@
                 <p>Bitte erfassen Sie Ihre Parkhausdaten. Vergewissern Sie sich, dass die Eingaben auch korrekt und
                     vollständig sind, damit Ihre Kunden Sie später ohne Probleme finden können.<br>
                 </p>
-                <form id="dummy-form" action="#"></form>
+
                 <br>
                 <form id="form-parkhaus" class="form-parkhaus" method="post" action="#">
-                    <div class="form-titel"><label id="titel">Parkhaus-Besitzerangaben:</label></div>
+                    <div class="form-titel">Parkhaus-Besitzerangaben:</div>
                     <br>
                     <fieldset id="inputs">
                         <p><label for="b-firma">Firma:</label>
@@ -45,53 +45,27 @@
                         <label>Parkhausangaben:</label><br>
 
                         <p><label for="p-parkhaus">Parkhaus-Name: </label>
-                            <input id="p-parkhaus" name="p-parkhaus" type="text" placeholder="Parkhaus-Name" required>
+                            <input id="p-parkhaus" name="p-parkhaus" type="text" placeholder="Parkhaus-Name">
                         </p> <br>
                         <p><label for="p-strasse">Strasse / Hausnummer: </label>
-                            <input id="p-strasse" name="p-strasse" type="text" placeholder="Strasse" required>
+                            <input id="p-strasse" name="p-strasse" type="text" placeholder="Strasse">
                         </p>
                         <p><label for="p-nummer">Strasse / Hausnummer: </label>
-                            <input id="p-nummer" name="p-nummer" type="number" placeholder="Hausnummer" required>
+                            <input id="p-nummer" name="p-nummer" type="number" placeholder="Hausnummer">
                         </p>
                         <p><label for="p-plz">Postleitzahl / Stadt: </label>
-                            <input id="p-plz" name="p-plz" type="number" placeholder="PLZ" required>
+                            <input id="p-plz" name="p-plz" type="number" placeholder="PLZ">
                         </p>
                         <p><label for="p-stadt">Postleitzahl / Stadt: </label>
-                            <input id="p-stadt" name="p-stadt" type="text" placeholder="Stadt" required>
+                            <input id="p-stadt" name="p-stadt" type="text" placeholder="Stadt">
                         </p>
                         <input type="submit" value="Parkhausdaten Speichern" id="parkhausdaten">
                     </fieldset>
                 </form>
         </div>
     </div>
+
 </div>
 
 
 
-<!--
-<div class="search">
-
-    <main id="container">
-        <h5>Willkommen auf easy2park.ch</h5>
-
-
-        <select id="parkhausauswahl" name="parkhausauswahl" class="parkhausauswahl"></select>
-
-        <button id="modeswitcher" class="edit">Bearbeiten</button>
-        <input id="entry" type="text" name="neuerParkplatz" class="eingabe">
-
-
-        <h2>Parkplatzliste</h2>
-        <ul id="parkhausliste"></ul>
-
-
-    </main>
-</div>
- -->
-
-
-<script src="platz.js"></script>
-<script src="parkhaus.js"></script>
-<script src="js/functions.js"></script>
-</body>
-</html>

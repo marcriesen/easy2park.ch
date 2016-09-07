@@ -133,5 +133,5 @@ $(document).ready(function () {
 
         var data = JSON.stringify($(this).serializeArray());
 
-
+        console.log(data);
     });
