@@ -1,13 +1,16 @@
 <?php include 'header.php' ?>
 
-
-                <h1>Datenübersicht</h1>
-                <form method="post" action="php/api/parkhaus/list.php">
-                    <select name="parkhausName">
-                        <option value="parkhaus">Parkhaus auswähle</option>
-                    </select>
-                    <input type="submit" value="Lade Parkhausdaten"/>
-                </form>
+                <div class="uebersicht-title">
+                    <h1>Datenübersicht</h1>
+                </div>
+                <div class="auswahl-parkhaus">
+                    <form method="post" action="php/api/parkhaus/list.php">
+                        <select name="parkhausName">
+                            <option value="parkhaus">Parkhaus auswähle</option>
+                        </select>
+                        <input type="submit" value="Lade Parkhausdaten"/>
+                    </form>
+                </div>
 
                 <div class="liste-parkhaus">
                     <div class="parkhausuebersicht">Parkhausübersicht</div>
