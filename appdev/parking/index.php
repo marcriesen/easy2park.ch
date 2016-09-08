@@ -1,8 +1,5 @@
         <?php include 'header.php' ?>
 
-        <div class="parallax">
-            <div class="container-content">
-                <div class="content">
                     <div class="index_titel">
                         <h1>Willkommen auf easy2park.ch</h1>
                     </div>
@@ -97,9 +94,7 @@
                             <a href="parkhaus.php">Zum Admin-Bereich</a>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
+
 
         <?php include 'footer.php' ?>
 

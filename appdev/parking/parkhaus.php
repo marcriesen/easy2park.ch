@@ -1,8 +1,5 @@
 <?php include 'header.php' ?>
 
-<div class="parallax" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
-    <div class="container-content">
-        <div class="content">
             <div class="content-content">
                 <h1>
                     Erfassen Sie ihre Parkhausdaten
@@ -178,9 +175,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
+
 
 
 <?php include 'footer.php' ?>
