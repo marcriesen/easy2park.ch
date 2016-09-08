@@ -481,44 +481,86 @@ body {
 
 input {
     height: 30px;
-    width: 200px;
+    width: 220px;
     border: hidden;
-    font-size: 18px;
+    font-size: 15px;
     margin-left: 10px;
     font-family: RobotoLight, sans-serif;
     transition: all 0.2s;
+    box-shadow: 7px 7px 25px 1px rgba(200, 200, 200, 0.50);
+    border-radius: 5px;
+    text-indent: 5px;
+    font
 }
 
 input:focus {
     background-color: #2E3192;
     transition: all 0.2s;
-    opacity: 0.7;
+    opacity: 0.9;
     color: #fff;
 }
-/*
+
+.lefty {
+    width: 450px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.righty {
+    width: 450px;
+    margin-left: 450px;
+    margin-top: -400px;
+}
+
+.lefty-downy {
+    width: 450px;
+    margin-top: 180px;
+    margin-left: 20px;
+}
+
+.righty-downy {
+    width: 450px;
+    margin-top: -212px;
+    margin-left: 450px;
+}
+
+#title {
+    font-size: 18px;
+    text-decoration: underline;
+    padding-bottom: 0.5em;
+    width: auto;
+}
+
+#firsty {
+    padding-bottom: 10px;
+}
+
 p {
-    text-align: center;
+    text-align: left;
     padding: 5px;
 }
 
 label {
     display: inline-block;
-    width: 100px;
+    width: 160px;
     text-align: left;
 }
 
-#title-besitzer {
-    margin-left: 35px;
-    text-decoration: underline;
-    font-size: 18px;
-    padding-bottom: 1em;
+#save-parkhausdaten {
+    margin-top: 110px;
+    margin-left: -300px;
+    background-color: red;
 }
 
-#label-bes {
-    margin-left: -500px;
-    text-align: left;
-} */
+.button-next-site {
 
+}
+
+#jump-uebersicht {
+    margin-top: -31px;
+    margin-left: -200px;
+    height: 30px;
+}
 
 /* <--- END PARKHAUS PAGE STYLE ---> */
 
