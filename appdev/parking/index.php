@@ -45,21 +45,21 @@
                     <div class="set-one">
                         <div class="pic-one">
                             <a id="picture-link" href="#">
-                                <img id="picture" src="../media/Basel.jpg" >
+                                <img id="picture" src="./media/town/Basel.jpg" >
                                 <div class="layer1"></div>
                                 <div class="text-picture1">Basel</div>
                             </a>
                         </div>
                         <div class="pic-two">
                             <a id="picture-link" href="#">
-                                <img id="picture" src="../media/Bern.jpg">
+                                <img id="picture" src="./media/town/Bern.jpg">
                                 <div class="layer2"></div>
                                 <div class="text-picture2">Bern</div>
                             </a>
                         </div>
                         <div class="pic-three">
                             <a id="picture-link" href="#">
-                                <img id="picture" src="../media/Lausanne.jpg">
+                                <img id="picture" src="./media/town/Lausanne.jpg">
                                 <div class="layer3"></div>
                                 <div class="text-picture3">Lausanne</div>
                             </a>
@@ -68,21 +68,21 @@
                     <div class="set-two">
                         <div class="pic-four">
                             <a id="picture-link" href="#">
-                                <img id="picture" src="../media/Luzern.JPG">
+                                <img id="picture" src="./media/town/Luzern.jpg">
                                 <div class="layer4"></div>
                                 <div class="text-picture4">Luzern</div>
                             </a>
                         </div>
                         <div class="pic-five">
                             <a id="picture-link" href="#">
-                                <img id="picture" src="../media/StGallen.JPG">
+                                <img id="picture" src="./media/town/StGallen.jpg">
                                 <div class="layer5"></div>
                                 <div class="text-picture5">St. Gallen</div>
                             </a>
                         </div>
                         <div class="pic-six">
                             <a id="picture-link" href="#">
-                                <img id="picture" src="../media/Zürich.jpg">
+                                <img id="picture" src="./media/town/Zürich.jpg">
                                 <div class="layer6"></div>
                                 <div class="text-picture6">Zürich</div>
                             </a>

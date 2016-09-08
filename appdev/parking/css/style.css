@@ -599,17 +599,17 @@ body {
     height: 200px;
     width: 200px;
     display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    /*box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);*/
-    background-color: transparent;
-    color: #000;
-    border-radius: 5px;
-    position: relative;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+justify-content: center;
+align-content: center;
+/*box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);*/
+background-color: transparent;
+color: #000;
+border-radius: 5px;
+position: relative;
 }
 
 
