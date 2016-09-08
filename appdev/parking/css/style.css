@@ -246,6 +246,7 @@ body {
     height: 1400px;
     width: 900px;
     display: block;
+    padding-top: 110px;
 }
 
 /* <--- START LANDING PAGE STYLE ---> */
@@ -516,6 +517,7 @@ body {
     color: #000;
     border-radius: 5px;
     justify-content: space-around;
+    position: relative;
 }
 
 .pic-two {
@@ -533,6 +535,7 @@ body {
     background-color: transparent;
     color: #000;
     border-radius: 5px;
+    position: relative;
 }
 
 .pic-three {
@@ -549,6 +552,7 @@ body {
     background-color: transparent;
     color: #000;
     border-radius: 5px;
+    position: relative;
 }
 
 .set-two {
@@ -577,6 +581,7 @@ body {
     color: #000;
     border-radius: 5px;
     justify-content: space-around;
+    position: relative;
 }
 
 .pic-five {
@@ -594,6 +599,7 @@ body {
     background-color: transparent;
     color: #000;
     border-radius: 5px;
+    position: relative;
 }
 
 .pic-six {
@@ -610,18 +616,260 @@ body {
     background-color: transparent;
     color: #000;
     border-radius: 5px;
-}
-.grey {
-    height: 200px;
-    width: 200px;
-    background-color: lightgrey;
-    opacity: 0.3;
+    position: relative;
 }
 
-a #picture-link:before {
-    background-color: #fff;
-    opacity: 0.4;
+
+.pic-six:hover {
+    background-color: transparent;
+    opacity: 1.0;
 }
+
+.layer1 {
+    background-color: rgba(255, 255, 255, 0.50);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.layer1:hover {
+    background-color: transparent;
+}
+
+.text-picture1 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 51;
+    color: #2E3192;
+}
+
+.text-picture1:hover {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 51;
+    color: #fff;
+}
+
+.layer2 {
+    background-color: rgba(255, 255, 255, 0.50);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.layer2:hover {
+    background-color: transparent;
+}
+
+.text-picture2 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 51;
+    color: #2E3192;
+}
+
+.text-picture2:hover {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 51;
+    color: #fff;
+}
+
+.layer3 {
+    background-color: rgba(255, 255, 255, 0.50);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.layer3:hover {
+    background-color: transparent;
+}
+
+.text-picture3 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 51;
+    color: #2E3192;
+}
+
+.text-picture3:hover {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 51;
+    color: #fff;
+}
+
+.layer4 {
+    background-color: rgba(255, 255, 255, 0.50);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.layer4:hover {
+    background-color: transparent;
+}
+
+.text-picture4 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 51;
+    color: #2E3192;
+}
+
+.text-picture4:hover {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 51;
+    color: #fff;
+}
+
+.layer5 {
+    background-color: rgba(255, 255, 255, 0.50);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.layer5:hover {
+    background-color: transparent;
+}
+
+.text-picture5 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 51;
+    color: #2E3192;
+}
+
+.text-picture5:hover {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 51;
+    color: #fff;
+}
+
+.layer6 {
+    background-color: rgba(255, 255, 255, 0.50);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.layer6:hover {
+    background-color: transparent;
+}
+
+.text-picture6 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 51;
+    color: #2E3192;
+}
+
+.text-picture6:hover {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 51;
+    color: #fff;
+}
+
 /* <--- END LANDING PAGE STYLE ---> */
 
 /* <--- START PARKHAUS PAGE STYLE ---> */
