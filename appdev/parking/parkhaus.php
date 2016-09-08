@@ -1,6 +1,6 @@
 <?php include 'header.php' ?>
 
-<div class="parallax">
+<div class="parallax" xmlns="http://www.w3.org/1999/html">
     <div class="container-content">
         <div class="content">
             <div class="content-content">
@@ -14,34 +14,62 @@
                 <br>
                 <form id="form-parkhaus" class="form-parkhaus" method="post" action="#">
                     <br>
-                    <fieldset id="inputs">
-                        <label for="besitzer">Besitzerangaben:</label>
-                        <p><label for="b-firma">Firma:</label>
-                            <input id="b-firma" name="b-firma" type="text" placeholder="Firmenname">
-                        </p>
-                        <p><label for="b-name">Name: </label>
-                            <input id="b-name" name="b-name" type="text" placeholder="Name">
-                        </p>
-                        <p><label for="b-vorname">Vorname: </label>
-                            <input id="b-vorname" name="b-vorname" type="text" placeholder="Vorname">
-                        </p>
-                        <p><label for="b-strasse">Strasse: </label>
-                            <input id="b-strasse" name="b-strasse" type="text" placeholder="Strasse">
-                        </p>
-                        <p><label for="b-hausnummer">Hausnummer: </label>
-                            <input id="b-hausnummer" name="b-hausnummer" type="number" placeholder="Hausnummer">
-                        </p>
-                        <p><label for="b-plz">Postleitzahl: </label>
-                            <input id="b-plz" name="b-plz" type="number" placeholder="PLZ">
-                        </p>
-                        <p><label for="b-stadt">Stadt: </label>
-                            <input id="b-stadt" name="b-stadt" type="text" placeholder="Stadt">
-                        </p>
-                        <p><label for="b-nummer">Telefonnummer: </label>
-                            <input id="b-nummer" name="b-nummer" type="number" placeholder="Telefonnummer">
-                        </p>
+                    <fieldset id="inputs-besitzer">
+                        <ul>
+                            <li>
+                                <label id="title-besitzer" for="besitzer">Besitzerangaben:</label>
+                                <p>
+                                    <label id="label-bes" for="b-firma">Firma:</label>
+                                    <input id="b-firma" name="b-firma" type="text" placeholder="Firmenname">
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <label id="label-bes" for="b-name">Name: </label>
+                                    <input id="b-name" name="b-name" type="text" placeholder="Name">
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <label id="label-bes" for="b-vorname">Vorname: </label>
+                                    <input id="b-vorname" name="b-vorname" type="text" placeholder="Vorname">
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <label id="label-bes" for="b-strasse">Strasse: </label>
+                                    <input id="b-strasse" name="b-strasse" type="text" placeholder="Strasse">
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <label id="label-bes" for="b-hausnummer">Hausnummer: </label>
+                                    <input id="b-hausnummer" name="b-hausnummer" type="number" placeholder="Hausnummer">
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <label id="label-bes" for="b-plz">Postleitzahl: </label>
+                                    <input id="b-plz" name="b-plz" type="number" placeholder="PLZ">
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <label id="label-bes" for="b-stadt">Stadt: </label>
+                                    <input id="b-stadt" name="b-stadt" type="text" placeholder="Stadt">
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <label id="label-bes" for="b-nummer">Telefonnummer: </label>
+                                    <input id="b-nummer" name="b-nummer" type="number" placeholder="Telefonnummer">
+                                </p>
+                            </li>
+                        </ul>
+                    </fieldset>
 
-                        <label for="parkhaus">Parkhausangaben:</label>
+                    <fieldset id="inputs-parkhaus">
+                        <label id="parkhaus" for="parkhaus">Parkhausangaben:
 
                         <p><label for="p-parkhaus">Parkhaus-Name: </label>
                             <input id="p-parkhaus" name="p-parkhaus" type="text" placeholder="Parkhaus-Name">
@@ -58,8 +86,11 @@
                         <p><label for="p-stadt">Stadt: </label>
                             <input id="p-stadt" name="p-stadt" type="text" placeholder="Stadt">
                         </p>
+                        </label>
+                    </fieldset>
 
-                        <label for="sektor">Parkplatzsektorangaben:</label>
+                    <fieldset id="inputs-sektor">
+                        <label for="sektor">Parkplatzsektorangaben:
 
                         <p><label for="p-sektor1">Normale Parkplätze: </label>
                             <input id="p-sektor1" name="p-sektor1" type="number" placeholder="Anzahl Normaler Parkplätze">
@@ -73,6 +104,7 @@
                         <p><label for="p-sektor4">Überwachte Parkplätze: </label>
                             <input id="p-sektor4" name="p-sektor4" type="number" placeholder="Anzahl Überwachter Parkplätze">
                         </p>
+                        </label>
 
                         <label for="google-maps">Google-Maps Koordinaten: </label>
                         <p><label for="p-mapsLongitude">Longitude: </label>
@@ -86,8 +118,6 @@
                         </p>
 
                         <input type="submit" value="Daten Speichern" id="parkhausdaten">
-
-
                     </fieldset>
                 </form>
                 <div class="button-next-site">

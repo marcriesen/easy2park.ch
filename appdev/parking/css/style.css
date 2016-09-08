@@ -211,57 +211,6 @@ nav #logo {
     text-align: center;
 }
 
-.input-form {
-    width: 700px;
-    height: auto;
-    clear: both;
-}
-
-/*input#bs-form #ph-form{
-    height: 20px;
-    width: 200px;
-    border: hidden;
-    font-size: 18px;
-    font-family: RobotoLight, sans-serif;
-    background-image: url("../media/icons/ic_search_black_48px.svg");
-    background-repeat: no-repeat;
-    background-position: 5px center;
-    text-indent: 50px;
-    transition: all 0.2s;
-}*/
-
-.input-form .form-titel label #titel {
-    text-decoration: underline;
-}
-
-p {
-    text-align: center;
-}
-
-.slash {
-    float: left;
-}
-
-.input-form label {
-    float: left;
-    width: 40%;
-    text-align: right;
-}
-
-.input-form input {
-    width: 20%;
-}
-
-.content-content input {
-    width: 20%;
-    clear: both;
-}
-
-input#ph-form:focus {
-    background-image: none;
-    text-indent: 10px;
-}
-
 #button-parallax {
     float: none;
     height: 50px;
@@ -530,6 +479,45 @@ body {
 
 /* <--- START PARKHAUS PAGE STYLE ---> */
 
+input {
+    height: 30px;
+    width: 200px;
+    border: hidden;
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: RobotoLight, sans-serif;
+    transition: all 0.2s;
+}
+
+input:focus {
+    background-color: #2E3192;
+    transition: all 0.2s;
+    opacity: 0.7;
+    color: #fff;
+}
+/*
+p {
+    text-align: center;
+    padding: 5px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+#title-besitzer {
+    margin-left: 35px;
+    text-decoration: underline;
+    font-size: 18px;
+    padding-bottom: 1em;
+}
+
+#label-bes {
+    margin-left: -500px;
+    text-align: left;
+} */
 
 
 /* <--- END PARKHAUS PAGE STYLE ---> */
@@ -539,28 +527,33 @@ body {
 .liste-parkhaus {
     height: 300px;
     width: 300px;
-    margin-left: 3em;
+    margin-top: 80px;
+    margin-left: 150px;
     background-color: lightslategrey;
-    display: ;
 }
 
 .parkhausuebersicht {
-    margin-top: 4em;
+
 }
 
 .liste-besitzer {
     height: 300px;
     width: 300px;
-    margin-left: 30em;
-    margin-top: -20em;
+    margin-left: 450px;
+    margin-top: -300px;
     background-color: lightyellow;
-    float: left;
 }
 
 .besitzeruebersicht {
-    margin-top: 4em;
+
 }
 
+.maps-parkhaus {
+    height: 400px;
+    width: 600px;
+    margin-left: 150px;
+    background-color: lightcoral;
+}
 
 
 /* <--- END PARKHAUS PAGE STYLE ---> */
