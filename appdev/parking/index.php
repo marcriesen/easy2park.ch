@@ -1,4 +1,4 @@
-        <?php include 'navigation.php' ?>
+        <?php include 'header.php' ?>
 
         <div class="parallax">
             <div class="container-content">
@@ -28,19 +28,19 @@
                     <div class="index_text">
                         <div class="text-finden">
                             <div class="text-center">
-                                <h3>Finden</h3><br>
+                                <h2>Finden</h2><br>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet assumenda, blanditiis corporis debitis, delectus dolorum eaque est expedita hic obcaecati officia quaerat sapiente sit totam ullam velit voluptate voluptatibus!
                             </div>
                         </div>
                         <div class="text-zahlen">
                             <div class="text-center">
-                                <h3>Zahlen</h3><br>
+                                <h2>Zahlen</h2><br>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet assumenda, blanditiis corporis debitis, delectus dolorum eaque est expedita hic obcaecati officia quaerat sapiente sit totam ullam velit voluptate voluptatibus!
                             </div>
                         </div>
                         <div class="text-parken">
                             <div class="text-center">
-                                <h3>Parken</h3><br>
+                                <h2>Parken</h2><br>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet assumenda, blanditiis corporis debitis, delectus dolorum eaque est expedita hic obcaecati officia quaerat sapiente sit totam ullam velit voluptate voluptatibus!
                             </div>
                         </div>
@@ -51,8 +51,6 @@
                         </div>
                     </div>
                 </div>
-                <footer>Diplomarbeit by Michael und Marc</footer>
-                <div class="footer">Diplomarbeit by Michael und Marc</div>
             </div>
         </div>
 

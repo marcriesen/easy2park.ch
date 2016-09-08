@@ -1,19 +1,15 @@
-<?php include 'navigation.php' ?>
+<?php include 'header.php' ?>
 
-<div class="parallax">
-    <div class="container-content">
-        <div class="content">
-            <h1>Kontakt</h1>
+    <div class="parallax">
+        <div class="container-content">
+            <div class="content">
+                <h1>Kontakt</h1>
+                <div class="contact-form">
+                    Marc Riesen
+                </div>
+            </div>
         </div>
     </div>
-</div>
 
 
-
-
-<!-- <script src="easy2park.js"></script> -->
-<script src="platz.js"></script>
-<script src="parkhaus.js"></script>
-<script src="js/functions.js"></script>
-</body>
-</html>
+<?php include 'footer.php' ?>

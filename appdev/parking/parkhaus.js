@@ -120,7 +120,7 @@ $(document).ready(function () {
     });
 
     function parkhausLoeschen(parkhausID) {
-        //TODO: Info an server senden, er soll bitte das Projekt mit der entsprechenden ID löschen
+
     }
 
     });
@@ -128,10 +128,7 @@ $(document).ready(function () {
 
     $('#form-parkhaus').on('submit', function(e){
         e.preventDefault();
-
         // console.log($(this).serialize());
-
         var data = JSON.stringify($(this).serializeArray());
-
         console.log(data);
     });

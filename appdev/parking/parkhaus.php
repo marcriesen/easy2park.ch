@@ -1,22 +1,21 @@
-<?php include 'navigation.php' ?>
+<?php include 'header.php' ?>
 
 <div class="parallax">
     <div class="container-content">
         <div class="content">
-            <form class="content-content">
+            <div class="content-content">
                 <h1>
-                    Admin-Bereich von easy2park.ch
+                    Erfassen Sie ihre Parkhausdaten
                 </h1>
                 <br>
-                <p>Bitte erfassen Sie Ihre Parkhausdaten. Vergewissern Sie sich, dass die Eingaben auch korrekt und
-                    vollständig sind, damit Ihre Kunden Sie später ohne Probleme finden können.<br>
+                <p>Vergewissern Sie sich, dass die Eingaben korrekt und vollständig sind, damit Ihre Kunden Sie später ohne Probleme finden können.<br>
                 </p>
 
                 <br>
                 <form id="form-parkhaus" class="form-parkhaus" method="post" action="#">
-                    <div class="form-titel">Parkhaus-Besitzerangaben:</div>
                     <br>
                     <fieldset id="inputs">
+                        <label for="besitzer">Besitzerangaben:</label>
                         <p><label for="b-firma">Firma:</label>
                             <input id="b-firma" name="b-firma" type="text" placeholder="Firmenname">
                         </p>
@@ -42,30 +41,65 @@
                             <input id="b-nummer" name="b-nummer" type="number" placeholder="Telefonnummer">
                         </p>
 
-                        <label>Parkhausangaben:</label><br>
+                        <label for="parkhaus">Parkhausangaben:</label>
 
                         <p><label for="p-parkhaus">Parkhaus-Name: </label>
                             <input id="p-parkhaus" name="p-parkhaus" type="text" placeholder="Parkhaus-Name">
-                        </p> <br>
-                        <p><label for="p-strasse">Strasse / Hausnummer: </label>
+                        </p>
+                        <p><label for="p-strasse">Strasse: </label>
                             <input id="p-strasse" name="p-strasse" type="text" placeholder="Strasse">
                         </p>
-                        <p><label for="p-nummer">Strasse / Hausnummer: </label>
+                        <p><label for="p-nummer">Hausnummer: </label>
                             <input id="p-nummer" name="p-nummer" type="number" placeholder="Hausnummer">
                         </p>
-                        <p><label for="p-plz">Postleitzahl / Stadt: </label>
+                        <p><label for="p-plz">Postleitzahl: </label>
                             <input id="p-plz" name="p-plz" type="number" placeholder="PLZ">
                         </p>
-                        <p><label for="p-stadt">Postleitzahl / Stadt: </label>
+                        <p><label for="p-stadt">Stadt: </label>
                             <input id="p-stadt" name="p-stadt" type="text" placeholder="Stadt">
                         </p>
-                        <input type="submit" value="Parkhausdaten Speichern" id="parkhausdaten">
+
+                        <label for="sektor">Parkplatzsektorangaben:</label>
+
+                        <p><label for="p-sektor1">Normale Parkplätze: </label>
+                            <input id="p-sektor1" name="p-sektor1" type="number" placeholder="Anzahl Normaler Parkplätze">
+                        </p>
+                        <p><label for="p-sektor2">Frauen Parkplätze: </label>
+                            <input id="p-sektor2" name="p-sektor2" type="number" placeholder="Anzahl Frauen Parkplätze">
+                        </p>
+                        <p><label for="p-sektor3">Handicap Parkplätze: </label>
+                            <input id="p-sektor3" name="p-sektor3" type="number" placeholder="Anzahl Handicap Parkplätze">
+                        </p>
+                        <p><label for="p-sektor4">Überwachte Parkplätze: </label>
+                            <input id="p-sektor4" name="p-sektor4" type="number" placeholder="Anzahl Überwachter Parkplätze">
+                        </p>
+
+                        <label for="google-maps">Google-Maps Koordinaten: </label>
+                        <p><label for="p-mapsLongitude">Longitude: </label>
+                            <input id="p-mapsLongitude" name="p-mapsLongitude" type="number" step="any" placeholder="Longitude einfügen">
+                        </p>
+                        <p><label for="p-mapsLatitude">Latitude: </label>
+                            <input id="p-mapsLatitude" name="p-mapsLatitude" type="number" step="any" placeholder="Latitude einfügen">
+                        </p>
+                        <p><label for="p-mapsAltitude">Altitude: </label>
+                            <input id="p-mapsAltitude" name="p-mapsAltitude" type="number" step="any" placeholder="Altitude einfügen (200m)">
+                        </p>
+
+                        <input type="submit" value="Daten Speichern" id="parkhausdaten">
+
+
                     </fieldset>
                 </form>
+                <div class="button-next-site">
+                    <div class="next-site">
+                        <a href="uebersicht.php">Weiter zur Übersicht</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
 </div>
 
 
+<?php include 'footer.php' ?>
 

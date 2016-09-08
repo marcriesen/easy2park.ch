@@ -438,9 +438,9 @@ body {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);
-    background-color: #2E3192;
-    color: #fff;
+   /* box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);*/
+    background-color: transparent;
+    color: #000;
     border-radius: 5px;
     justify-content: space-around;
 }
@@ -456,9 +456,9 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
-    box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);
-    background-color: #2E3192;
-    color: #fff;
+    /*box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);*/
+    background-color: transparent;
+    color: #000;
     border-radius: 5px;
 }
 
@@ -472,9 +472,9 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
-    box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);
-    background-color: #2E3192;
-    color: #fff;
+    /*box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);*/
+    background-color: transparent;
+    color: #000;
     border-radius: 5px;
 }
 
@@ -528,7 +528,44 @@ body {
 
 /* <--- END LANDING PAGE STYLE ---> */
 
-/* <--- FOOTER STYLE ---> */
+/* <--- START PARKHAUS PAGE STYLE ---> */
+
+
+
+/* <--- END PARKHAUS PAGE STYLE ---> */
+
+/* <--- START PARKHAUS PAGE STYLE ---> */
+
+.liste-parkhaus {
+    height: 300px;
+    width: 300px;
+    margin-left: 3em;
+    background-color: lightslategrey;
+    display: ;
+}
+
+.parkhausuebersicht {
+    margin-top: 4em;
+}
+
+.liste-besitzer {
+    height: 300px;
+    width: 300px;
+    margin-left: 30em;
+    margin-top: -20em;
+    background-color: lightyellow;
+    float: left;
+}
+
+.besitzeruebersicht {
+    margin-top: 4em;
+}
+
+
+
+/* <--- END PARKHAUS PAGE STYLE ---> */
+
+/* <--- START FOOTER STYLE ---> */
 
 footer {
     width: ;
@@ -539,4 +576,4 @@ footer {
 }
 
 
-}
+

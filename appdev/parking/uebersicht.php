@@ -1,19 +1,25 @@
-<?php include 'navigation.php' ?>
+<?php include 'header.php' ?>
 
-<div class="parallax">
-    <div class="container-content">
-        <div class="content">
-            <h1>Überischt</h1>
+    <div class="parallax">
+        <div class="container-content">
+            <div class="content">
+                <h1>Datenübersicht</h1>
+                <form method="post" action="php/api/parkhaus/list.php">
+                    <select name="parkhausName">
+                        <option value="parkhaus">Parkhaus auswähle</option>
+                    </select>
+                    <input type="submit" value="Lade Parkhausdaten"/>
+                </form>
+
+                    <div class="liste-parkhaus">
+                        <div class="parkhausuebersicht">Parkhausübersicht</div>
+                    </div>
+                    <div class="liste-besitzer">
+                        <div class="besitzerübersicht">Besitzerübersicht</div>
+                    </div>
+            </div>
         </div>
     </div>
-</div>
 
 
-
-
-<!-- <script src="easy2park.js"></script> -->
-<script src="platz.js"></script>
-<script src="parkhaus.js"></script>
-<script src="js/functions.js"></script>
-</body>
-</html>
+<?php include 'footer.php' ?>
