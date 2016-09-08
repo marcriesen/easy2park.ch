@@ -45,6 +45,42 @@
                             </div>
                         </div>
                     </div>
+                    <div class="set-one">
+                        <div class="pic-one">
+                            <a id="picture-link" href="#">
+                                <img id="picture" src="../media/Basel.jpg">
+                            </a>
+                        </div>
+                        <div class="pic-two">
+                            <a id="picture-link" href="#">
+                                <img id="picture" src="../media/Bern.jpg">
+                            </a>
+                        </div>
+                        <div class="pic-three">
+                            <a id="picture-link" href="#">
+                                <img id="picture" src="../media/Lausanne.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="set-two">
+                        <div class="pic-four">
+                            <a id="picture-link" href="#">
+                                <img id="picture" src="../media/Luzern.JPG">
+                            </a>
+                        </div>
+                        <div class="pic-five">
+                            <a id="picture-link" href="#">
+                                <img id="picture" src="../media/StGallen.JPG">
+                            </a>
+                        </div>
+                        <div class="pic-six">
+                            <a id="picture-link" href="#">
+                                <img id="picture" src="../media/Zürich.jpg">
+                                <div class="grey"></div>
+                            </a>
+                        </div>
+                    </div>
+
                     <div class="button-next-site">
                         <div class="next-site">
                             <a href="parkhaus.php">Zum Admin-Bereich</a>

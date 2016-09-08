@@ -174,7 +174,7 @@
 
                 <div class="button-next-site">
                     <div class="next-site" id="jump-uebersicht">
-                        <a href="uebersicht.php">Weiter zur Übersicht</a>
+                        <a id="link-jump-uebersicht" href="uebersicht.php">Weiter zur Übersicht</a>
                     </div>
                 </div>
             </div>

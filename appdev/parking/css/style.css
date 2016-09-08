@@ -167,7 +167,7 @@ nav #logo {
 
 .parallax {
     background-image: url("../media/Hotel-Parking_unscharf.jpg");
-    min-height: 1100px;
+    min-height: 1350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -190,7 +190,7 @@ nav #logo {
 }
 
 .content {
-    height: 500px;
+    height: 800px;
     width: 900px;
     margin-top: 6em;
     padding-top: 2em;
@@ -243,7 +243,7 @@ body {
 }
 
 .content {
-    height: 930px;
+    height: 1400px;
     width: 900px;
     display: block;
 }
@@ -470,11 +470,158 @@ body {
     border-radius: 5px;
 }
 
-.next-site a:active {
-    background-color: #fff;
-    color: #2E3192;
+
+.next-site a:hover {
+    background-color: #2D51A9;
+    color: #fff;
 }
 
+
+#picture {
+    height: 200px;
+    width: 200px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.set-one {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3em;
+}
+
+.pic-one {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    /* box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);*/
+    background-color: transparent;
+    color: #000;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.pic-two {
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /*box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);*/
+    background-color: transparent;
+    color: #000;
+    border-radius: 5px;
+}
+
+.pic-three {
+    height: 200px;
+    width: 200px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /*box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);*/
+    background-color: transparent;
+    color: #000;
+    border-radius: 5px;
+}
+
+.set-two {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3em;
+}
+
+.pic-four {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    /* box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);*/
+    background-color: transparent;
+    color: #000;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.pic-five {
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /*box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);*/
+    background-color: transparent;
+    color: #000;
+    border-radius: 5px;
+}
+
+.pic-six {
+    height: 200px;
+    width: 200px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /*box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);*/
+    background-color: transparent;
+    color: #000;
+    border-radius: 5px;
+}
+.grey {
+    height: 200px;
+    width: 200px;
+    background-color: lightgrey;
+    opacity: 0.3;
+}
+
+a #picture-link:before {
+    background-color: #fff;
+    opacity: 0.4;
+}
 /* <--- END LANDING PAGE STYLE ---> */
 
 /* <--- START PARKHAUS PAGE STYLE ---> */
@@ -549,7 +696,11 @@ label {
 #save-parkhausdaten {
     margin-top: 110px;
     margin-left: -300px;
-    background-color: red;
+    background-color: #ff0000;
+}
+
+#save-parkhausdaten:hover {
+    background-color: #FF7414;
 }
 
 .button-next-site {
@@ -560,6 +711,14 @@ label {
     margin-top: -31px;
     margin-left: -200px;
     height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#link-jump-uebersicht {
+    font-size: 15px;
+    vertical-align: middle;
 }
 
 /* <--- END PARKHAUS PAGE STYLE ---> */
