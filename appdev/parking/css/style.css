@@ -1001,6 +1001,12 @@ label {
     text-decoration: underline;
 }
 
+.info {
+    margin-top: 10px;
+    font-size: 12px;
+    color: grey;l
+}
+
 /* <--- END UEBERSICHT PAGE STYLE ---> */
 
 /* <--- START BESTELLEN PAGE STYLE ---> */
