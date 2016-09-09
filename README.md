@@ -1,12 +1,15 @@
-easy2park.ch
+# easy2park.ch
 
-Dies wird die Website zu unserer Diplomarbeit bei den Web Professionals.
+Dies ist der programmierte Code zu unserer Diplomarbeit bei den 
+Web Professionals.
 
-Der Sinn dieser Website ist es, sämtliche Parkhäuser in der Schweiz über eine Website zugänglich zu machen
-und dem Benutzer die aktuell freien Parkplätze aufzuzeigen. Weiter sollen in Zukunft auch Parkplätze 
+Der Sinn dieser Website ist es, sämtliche Parkhäuser in der Schweiz 
+über eine Website zugänglich zu machen und dem Benutzer die aktuell 
+freien Parkplätze aufzuzeigen. Weiter sollen in Zukunft auch Parkplätze 
 reserviert werden können.
 
-Die Applikation ist unter [www.easy2park.ch](www.easy2park.ch) online verfügbar.
+Die Applikation ist unter [www.easy2park.ch](www.easy2park.ch) online 
+verfügbar.
 
 Zum Runterladen der Applikation von unserem GitHub-Repository bitte wie 
 folgt vorgehen:
@@ -18,7 +21,8 @@ $ git clone git@github.com:marcriesen/easy2park.ch.git
 
 
 Start der Applikation:
-Die Applikation ist vorgesehen, dass diese mit MAMP oder einem ändlichen Programm lokal gestartet werden kann. 
+Die Applikation ist vorgesehen, dass diese mit MAMP oder einem ändlichen
+Programm lokal gestartet werden kann. 
 
 Um die Applikation zu starten bitte folgenden Pfad eingaben:
 
