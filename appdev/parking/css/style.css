@@ -11,7 +11,7 @@
 * CONTENT STYLE             LINE 194
 * LANDING PAGE STYLE        LINE 245
 * PARKHAUS PAGE STYLE       LINE 868
-* UEBERSICHT PAGE STYLE     LINE
+* UEBERSICHT PAGE STYLE     LINE 966s
 * BESTELLEN STYLE           LINE
 * FOOTER STYLE              LINE
 *
@@ -166,7 +166,7 @@ nav #logo {
 
 .parallax {
     background-image: url("../media/Hotel-Parking_unscharf.jpg");
-    min-height: 1350px;
+    min-height: 1530px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -211,7 +211,7 @@ body {
 }
 
 .content {
-    height: 1400px;
+    height: 1350px;
     width: 900px;
     display: block;
     padding-top: 50px;
@@ -437,9 +437,9 @@ body {
 }
 
 .next-site {
-    margin-top: 8em;
+    margin-top: 4em;
     float: none;
-    height: 50px;
+    height: 30px;
     width: 200px;
     background-color: #2E3192;
     border: hidden;
@@ -599,17 +599,17 @@ body {
     height: 200px;
     width: 200px;
     display: -webkit-box;
-display: -moz-box;
-display: -ms-flexbox;
-display: -webkit-flex;
-display: flex;
-justify-content: center;
-align-content: center;
-/*box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);*/
-background-color: transparent;
-color: #000;
-border-radius: 5px;
-position: relative;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /*box-shadow: 10px 20px 20px 5px rgba(20, 20, 20, 0.50);*/
+    background-color: transparent;
+    color: #000;
+    border-radius: 5px;
+    position: relative;
 }
 
 
@@ -963,7 +963,7 @@ label {
 
 /* <--- END PARKHAUS PAGE STYLE ---> */
 
-/* <--- START PARKHAUS PAGE STYLE ---> */
+/* <--- START UEBERSICHT PAGE STYLE ---> */
 
 .liste-parkhaus {
     height: 300px;
@@ -996,18 +996,28 @@ label {
     background-color: lightcoral;
 }
 
-
-/* <--- END PARKHAUS PAGE STYLE ---> */
-
-/* <--- START UEBERSICHT PAGE STYLE ---> */
-
-
-
-
-
-
+#koordinaten {
+    color: #2E3192;
+    text-decoration: underline;
+}
 
 /* <--- END UEBERSICHT PAGE STYLE ---> */
+
+/* <--- START BESTELLEN PAGE STYLE ---> */
+
+.auswahl-parkhaus {
+    margin-top: 4em;
+    margin-left: 10em;
+}
+
+#daten-laden {
+    background-color: lightgreen;
+}
+
+
+
+
+/* <--- END BESTELLEN PAGE STYLE ---> */
 
 /* <--- START FOOTER STYLE ---> */
 

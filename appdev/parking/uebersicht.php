@@ -8,7 +8,7 @@
                         <select name="parkhausName">
                             <option value="parkhaus">Parkhaus auswähle</option>
                         </select>
-                        <input type="submit" value="Lade Parkhausdaten"/>
+                        <input id="daten-laden" type="submit" value="Lade Parkhausdaten"/>
                     </form>
                 </div>
 

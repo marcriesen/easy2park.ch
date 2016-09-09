@@ -163,6 +163,11 @@
                                     <input id="p-mapsAltitude" name="p-mapsAltitude" type="number" step="any" placeholder="Altitude einfügen (200m)">
                                 </p>
                             </li>
+                            <li>
+                                <p>
+                                    <a id="koordinaten" href="http://www.mapcoordinates.net/en" target="_blank">Koordinatengerator</a>
+                                </p>
+                            </li>
                         </ul>
                     </fieldset
                     </div>
