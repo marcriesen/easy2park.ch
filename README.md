@@ -8,7 +8,7 @@ Der Sinn dieser Website ist es, sämtliche Parkhäuser in der Schweiz
 freien Parkplätze aufzuzeigen. Weiter sollen in Zukunft auch Parkplätze 
 reserviert werden können.
 
-Die Applikation ist unter [www.easy2park.ch](www.easy2park.ch) online 
+Die Applikation ist unter [www.easy2park.ch](https://www.easy2park.ch) online 
 verfügbar.
 
 Zum Runterladen der Applikation von unserem GitHub-Repository bitte wie 
