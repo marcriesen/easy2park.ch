@@ -18,7 +18,7 @@ $parkhausliste = json_decode(file_get_contents($pljson), true);
 $parkhausliste[] = array("id" => $parkhauscounter, "p-parkhaus" => $parkhausName, "p-strasse" => $parkhausStrasse, "p-nummer" => $parkhausNummer, "p-plz" => $parkhausPlz, "p-stadt" => $parkhausStadt,
     "p-sektor1" => $sektorNormal, "p-sektor2" => $sektorFrau, "p-sektor3" => $sektorHandicap, "p-sektor4" => $sektorUeberwachung,
     "b-firma" => $besitzerFirma, "b-name" => $besitzerName, "b-vorname" => $besitzerVorname, "b-strasse" => $besitzerStrasse, "b-hausnummer" => $besitzerHausnummer, "b-plz" => $besitzerPlz, "b-stadt" => $besitzerStadt, "b-nummer" => $besitzerTelefonnummer,
-    "p-mapsLongitude" => $parkhausMapsLongitude, "p-mapsLatitude" => $parkhausMapsLatitude, "p-mapsAltitude" => $parkhausMapsAltitude, "allePlaetzeBesetzt" => false);
+    "p-mapsLongitude" => $parkhausMapsLongitude, "p-mapsLatitude" => $parkhausMapsLatitude, "p-mapsAltitude" => $parkhausMapsAltitude);
 file_put_contents($pljson, json_encode($parkhausliste));
 
 

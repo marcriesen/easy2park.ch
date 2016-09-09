@@ -1,5 +1,5 @@
         <?php include 'header.php' ?>
-
+                    <!-- Start von Content inkl. Darstellung unserer 3 Grundpfeiler der Applikation -->
                     <div class="index_titel">
                         <h1>Willkommen auf easy2park.ch</h1>
                     </div>
@@ -42,6 +42,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Beispiele für diverse Städte der Schweiz als Kacheln angeordnet mit einem Farblayer und Hover-Effekt -->
                     <div class="set-one">
                         <div class="pic-one">
                             <a id="picture-link" href="#">
@@ -88,13 +89,12 @@
                             </a>
                         </div>
                     </div>
-
+                    <!-- Button um auf die nächste Seite zum Admin-Bereich zu gelangen -->
                     <div class="button-next-site">
                         <div class="next-site">
                             <a href="parkhaus.php">Zum Admin-Bereich</a>
                         </div>
                     </div>
-
 
         <?php include 'footer.php' ?>
 

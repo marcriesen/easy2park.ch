@@ -7,10 +7,10 @@
                 <br>
                 <p>Vergewissern Sie sich, dass die Eingaben korrekt und vollständig sind, damit Ihre Kunden Sie später ohne Probleme finden können.<br>
                 </p>
-
                 <br>
                 <form id="form-parkhaus" class="form-parkhaus" method="post" action="#">
                     <br>
+                    <!-- Eingabeformular für die Erfassung der Besitzerdaten -->
                     <div class="lefty">
                         <fieldset id="inputs-besitzer">
                             <ul>
@@ -20,54 +20,55 @@
                                 <li>
                                     <p>
                                         <label id="label-bes" for="b-firma">Firma:</label>
-                                        <input id="b-firma" name="b-firma" type="text" placeholder="Firmenname">
+                                        <input id="b-firma" name="b-firma" type="text" placeholder="Firmenname" required>
                                     </p>
                                 </li>
                                 <li>
                                     <p>
                                         <label id="label-bes" for="b-name">Name: </label>
-                                        <input id="b-name" name="b-name" type="text" placeholder="Name">
+                                        <input id="b-name" name="b-name" type="text" placeholder="Name" required>
                                     </p>
                                 </li>
                                 <li>
                                     <p>
                                         <label id="label-bes" for="b-vorname">Vorname: </label>
-                                        <input id="b-vorname" name="b-vorname" type="text" placeholder="Vorname">
+                                        <input id="b-vorname" name="b-vorname" type="text" placeholder="Vorname" required>
                                     </p>
                                 </li>
                                 <li>
                                     <p>
                                         <label id="label-bes" for="b-strasse">Strasse: </label>
-                                        <input id="b-strasse" name="b-strasse" type="text" placeholder="Strasse">
+                                        <input id="b-strasse" name="b-strasse" type="text" placeholder="Strasse" required>
                                     </p>
                                 </li>
                                 <li>
                                     <p>
                                         <label id="label-bes" for="b-hausnummer">Hausnummer: </label>
-                                        <input id="b-hausnummer" name="b-hausnummer" type="number" placeholder="Hausnummer">
+                                        <input id="b-hausnummer" name="b-hausnummer" type="number" placeholder="Hausnummer" required>
                                     </p>
                                 </li>
                                 <li>
                                     <p>
                                         <label id="label-bes" for="b-plz">Postleitzahl: </label>
-                                        <input id="b-plz" name="b-plz" type="number" placeholder="PLZ">
+                                        <input id="b-plz" name="b-plz" type="number" placeholder="PLZ" required>
                                     </p>
                                 </li>
                                 <li>
                                     <p>
                                         <label id="label-bes" for="b-stadt">Stadt: </label>
-                                        <input id="b-stadt" name="b-stadt" type="text" placeholder="Stadt">
+                                        <input id="b-stadt" name="b-stadt" type="text" placeholder="Stadt" required>
                                     </p>
                                 </li>
                                 <li>
                                     <p>
                                         <label id="label-bes" for="b-nummer">Telefonnummer: </label>
-                                        <input id="b-nummer" name="b-nummer" type="number" placeholder="Telefonnummer">
+                                        <input id="b-nummer" name="b-nummer" type="number" placeholder="Telefonnummer" required>
                                     </p>
                                 </li>
                             </ul>
                         </fieldset>
                     </div>
+                    <!-- Eingabeformular für die Erfassung der Parkhausdaten -->
                     <div class="righty">
                         <fieldset id="inputs-parkhaus">
                             <ul>
@@ -107,6 +108,7 @@
                             </ul>
                         </fieldset>
                     </div>
+                    <!-- Eingabeformular für die Erfassung der Parkplatzdaten -->
                     <div class="lefty-downy">
                         <fieldset id="inputs-sektor">
                             <ul>
@@ -140,6 +142,7 @@
                             </ul>
                         </fieldset>
                     </div>
+                    <!-- Eingabeformular für die Erfassung der Google-Maps Daten -->
                     <div class="righty-downy">
                         <ul>
                             <li id="firsty">
@@ -171,9 +174,10 @@
                         </ul>
                     </fieldset
                     </div>
+                    <!-- Submit Button zum speichern der oben eingegebenen Daten -->
                         <input type="submit" value="Daten Speichern" id="save-parkhausdaten">
                 </form>
-
+                <!-- Button um auf die nächste Seite zur Parkhaus-Übersicht zu gelangen -->
                 <div class="button-next-site">
                     <div class="next-site" id="jump-uebersicht">
                         <a id="link-jump-uebersicht" href="uebersicht.php">Weiter zur Übersicht</a>

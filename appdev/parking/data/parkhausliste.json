@@ -1,7 +1,12 @@
 [
   {
     "id": 1,
-    "parkhaus": "Schwammendingen",
+    "parkhausName": "",
+    "parkhausStrasse": "",
+    "parkhausPlz": ,
+    "parkhausStadt": "",
+  {
+  }
     "allePlaetzeBesetzt": true
   },
   {

@@ -10,7 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 </head>
 <body>
-
+<!-- Logo und Navigation -->
 <nav id="logo">
     <ul id="logo">
         <a href="index.php"><img src="media/logo/logo_desktop.png"></a>
@@ -25,6 +25,7 @@
     </ul>
 </nav>
 
+<!-- Start der eigentlich Website -->
 <div class="parallax">
     <div class="container-content">
         <div class="content">
