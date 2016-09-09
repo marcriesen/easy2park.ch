@@ -961,6 +961,10 @@ label {
 
 /* <--- START UEBERSICHT PAGE STYLE ---> */
 
+.auswahl-parkhaus {
+    margin-top: 3em;
+}
+
 .liste-parkhaus {
     height: 300px;
     width: 300px;
