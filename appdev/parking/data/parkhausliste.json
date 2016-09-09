@@ -1,17 +1,82 @@
 [
   {
-    "id": 1,
-    "parkhausName": "",
-    "parkhausStrasse": "",
-    "parkhausPlz": ,
-    "parkhausStadt": "",
-  {
-  }
-    "allePlaetzeBesetzt": true
+    "name": "b-firma",
+    "value": "Test"
   },
   {
-    "id": 2,
-    "parkhaus": "Urania",
-    "allePlaetzeBesetzt": false
+    "name": "b-name",
+    "value": "Test"
+  },
+  {
+    "name": "b-vorname",
+    "value": "aweasef"
+  },
+  {
+    "name": "b-strasse",
+    "value": "245"
+  },
+  {
+    "name": "b-hausnummer",
+    "value": "123"
+  },
+  {
+    "name": "b-plz",
+    "value": "87654"
+  },
+  {
+    "name": "b-stadt",
+    "value": "Test"
+  },
+  {
+    "name": "b-nummer",
+    "value": "0245235"
+  },
+  {
+    "name": "p-parkhaus",
+    "value": "sadfasdf"
+  },
+  {
+    "name": "p-strasse",
+    "value": "asdfasdf"
+  },
+  {
+    "name": "p-nummer",
+    "value": "1234"
+  },
+  {
+    "name": "p-plz",
+    "value": "1234"
+  },
+  {
+    "name": "p-stadt",
+    "value": "Grabs"
+  },
+  {
+    "name": "p-sektor1",
+    "value": "1"
+  },
+  {
+    "name": "p-sektor2",
+    "value": "12"
+  },
+  {
+    "name": "p-sektor3",
+    "value": "123"
+  },
+  {
+    "name": "p-sektor4",
+    "value": "12"
+  },
+  {
+    "name": "p-mapsLongitude",
+    "value": "123.123"
+  },
+  {
+    "name": "p-mapsLatitude",
+    "value": "12.123"
+  },
+  {
+    "name": "p-mapsAltitude",
+    "value": "1234"
   }
 ]

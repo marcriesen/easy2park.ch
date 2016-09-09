@@ -1,0 +1,25 @@
+[
+  {
+    "id": "1",
+    "p-parkhaus": "Urania",
+    "p-strasse": "Uraniastrasse",
+    "p-nummer": "3",
+    "p-plz": "8001",
+    "p-stadt": "Zürich",
+    "p-sektor1": "300",
+    "p-sektor2": "20",
+    "p-sektor3": "10",
+    "p-seltor4": "30",
+    "b-firma": "Parkhaus-Heros",
+    "b-name": "Muster",
+    "b-vorname": "Max",
+    "b-strasse": "Musterstrasse",
+    "b-hausnummer": "10",
+    "b-plz": "8000",
+    "b-stadt": "Zürich",
+    "b-nummer": "1818",
+    "p-mapsLongitude": "8.5408383",
+    "p-mapsLatitude": "47.3742959",
+    "p-mapsAltitude": "200"
+  }
+]

@@ -5,8 +5,8 @@
                 </div>
                 <div class="auswahl-parkhaus">
                     <!-- Dropdown zur auswahl sämtlicher Parkhäuser, welche in der Datenbank hinterlegt sind -->
-                    <form method="post" action="php/api/parkhaus/list.php">
-                        <select name="parkhausName">
+                    <form method="get" action="php/api/parkhaus/list.php">
+                        <select name="p_parkhaus">
                             <option value="parkhaus">Parkhaus auswählen</option>
                         </select>
                         <input id="daten-laden" type="submit" value="Lade Parkhausdaten"/>

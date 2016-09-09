@@ -8,7 +8,7 @@
                 <p>Vergewissern Sie sich, dass die Eingaben korrekt und vollständig sind, damit Ihre Kunden Sie später ohne Probleme finden können.<br>
                 </p>
                 <br>
-                <form id="form-parkhaus" class="form-parkhaus" method="post" action="#">
+                <form id="form-parkhaus" class="form-parkhaus" method="post" action="php/api/parkhaus/create.php">
                     <br>
                     <!-- Eingabeformular für die Erfassung der Besitzerdaten -->
                     <div class="lefty">
@@ -20,49 +20,49 @@
                                 <li>
                                     <p>
                                         <label id="label-bes" for="b-firma">Firma:</label>
-                                        <input id="b-firma" name="b-firma" type="text" placeholder="Firmenname" required>
+                                        <input id="b-firma" name="b-firma" type="text" placeholder="Firmenname" >
                                     </p>
                                 </li>
                                 <li>
                                     <p>
                                         <label id="label-bes" for="b-name">Name: </label>
-                                        <input id="b-name" name="b-name" type="text" placeholder="Name" required>
+                                        <input id="b-name" name="b-name" type="text" placeholder="Name" >
                                     </p>
                                 </li>
                                 <li>
                                     <p>
                                         <label id="label-bes" for="b-vorname">Vorname: </label>
-                                        <input id="b-vorname" name="b-vorname" type="text" placeholder="Vorname" required>
+                                        <input id="b-vorname" name="b-vorname" type="text" placeholder="Vorname" >
                                     </p>
                                 </li>
                                 <li>
                                     <p>
                                         <label id="label-bes" for="b-strasse">Strasse: </label>
-                                        <input id="b-strasse" name="b-strasse" type="text" placeholder="Strasse" required>
+                                        <input id="b-strasse" name="b-strasse" type="text" placeholder="Strasse" >
                                     </p>
                                 </li>
                                 <li>
                                     <p>
                                         <label id="label-bes" for="b-hausnummer">Hausnummer: </label>
-                                        <input id="b-hausnummer" name="b-hausnummer" type="number" placeholder="Hausnummer" required>
+                                        <input id="b-hausnummer" name="b-hausnummer" type="number" placeholder="Hausnummer" >
                                     </p>
                                 </li>
                                 <li>
                                     <p>
                                         <label id="label-bes" for="b-plz">Postleitzahl: </label>
-                                        <input id="b-plz" name="b-plz" type="number" placeholder="PLZ" required>
+                                        <input id="b-plz" name="b-plz" type="number" placeholder="PLZ" >
                                     </p>
                                 </li>
                                 <li>
                                     <p>
                                         <label id="label-bes" for="b-stadt">Stadt: </label>
-                                        <input id="b-stadt" name="b-stadt" type="text" placeholder="Stadt" required>
+                                        <input id="b-stadt" name="b-stadt" type="text" placeholder="Stadt" >
                                     </p>
                                 </li>
                                 <li>
                                     <p>
                                         <label id="label-bes" for="b-nummer">Telefonnummer: </label>
-                                        <input id="b-nummer" name="b-nummer" type="number" placeholder="Telefonnummer" required>
+                                        <input id="b-nummer" name="b-nummer" type="number" placeholder="Telefonnummer" >
                                     </p>
                                 </li>
                             </ul>

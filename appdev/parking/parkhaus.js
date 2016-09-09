@@ -22,19 +22,21 @@ $(document).ready(function () {
     $.ajax({
         type: 'GET',
         dataType: "json",
-        url: 'data/parkhaus.json',
-        success: function(r){
+        url: 'data/parkhausliste.json',
+        success: function (r) {
             parkhauslisteParsen(r)
         },
         error: function () {
-            alert("Der Server ist kapputt");
+            alert("Der Server ist kaputt");
         }
     });
 
 
+
     function parkhauslisteParsen(r) {
         r.forEach(function (e) {
-            addParkhaus(e.parkhaus.label, e.parkhaus.id, e.parkhaus.alleParkplaetzeBesetzt);
+            console.log(e.name);
+            addParkhaus();
         });
     }
 
@@ -85,7 +87,7 @@ $(document).ready(function () {
             var $parkhaus = $(event.target); // auf welchem element ist es passiert
             var idVomParkhaus = $parkhaus.attr('id');
             var neuerName = $parkhaus.text();
-            easy2park.parkhausDS.update(idVomParkhaus,neuerName,callback);
+            easy2park.parkhausDS.update(idVomParkhaus, neuerName, callback);
 
         }
         function callback() {
@@ -123,12 +125,25 @@ $(document).ready(function () {
 
     }
 
-    });
+});
 
+// Daten speichern
 
-    $('#form-parkhaus').on('submit', function(e){
-        e.preventDefault();
-        // console.log($(this).serialize());
-        var data = JSON.stringify($(this).serializeArray());
-        console.log(data);
+$('#form-parkhaus').on('submit', function (e) {
+    e.preventDefault();
+    // console.log($(this).serialize());
+    var data = JSON.stringify($(this).serializeArray());
+
+    $.ajax({
+        type: 'POST',
+        dataType: "json",
+        url: 'php/api/parkhaus/create.php',
+        data: data,
+        success: function (r) {
+            console.log('hat geklappt');
+        },
+        error: function () {
+            alert("Der Server ist kapputt");
+        }
     });
+});
