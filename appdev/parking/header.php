@@ -21,7 +21,6 @@
         <li><a id="navi" href="parkhaus.php">Parkhaus erfassen</a></li>
         <li><a id="navi" href="uebersicht.php">Parkhausübersicht</a></li>
         <li><a id="navi" href="bestellen.php">Bestellen</a></li>
-        <li><a id="navi" href="kontakt.php">Kontakt</a></li>
     </ul>
 </nav>
 
