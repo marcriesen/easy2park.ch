@@ -17,6 +17,7 @@ folgt vorgehen:
 - Öffnen Sie Ihr Terminal
 - Springen Sie in den Ordner, wo Sie die Applikation speichern möchten,
   und geben Sie folgendes ein:
+  
   $ git clone git@github.com:marcriesen/easy2park.ch.git
 
 
